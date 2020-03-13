@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="broadway_1" sample-rate="48000" end-is-free="0" id-counter="55450" name-counter="1" event-counter="1893689" vca-counter="1">
+<Session version="3002" name="broadway_1" sample-rate="48000" end-is-free="0" id-counter="64677" name-counter="1" event-counter="2315539" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -89,6 +89,7 @@
     <Source name="sketch-t5-1-6.mid" type="midi" flags="Writable,CanRename" id="20658" origin=""/>
     <Source name="000.wav" type="audio" flags="" id="21437" channel="0" origin="" gain="1"/>
     <Source name="sketch-t5-1-7.mid" type="midi" flags="Writable,CanRename" id="22481" origin=""/>
+    <Source name="melody2-1.mid" type="midi" flags="Writable,CanRename" id="63659" origin=""/>
   </Sources>
   <Regions>
     <Region name="sketch-t1-1-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8100000" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="337.5" id="201" type="midi" first-edit="nothing" source-0="175" master-source-0="175"/>
@@ -157,13 +158,15 @@
     <Region name="growler.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="2688000" length="896000" position="7296000" beat="228" sync-position="2688000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="84" length-beats="28" id="22472" type="midi" first-edit="nothing" source-0="183" master-source-0="183"/>
     <Region name="sketch-t5-1-7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2688000" length="896000" position="7296000" beat="228" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="84" length-beats="28" id="22483" type="midi" first-edit="nothing" source-0="22481" master-source-0="22481"/>
     <Region name="sketch-t5-1-7.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2688000" length="896000" position="5504000" beat="172" sync-position="2688000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="84" length-beats="28" id="22667" type="midi" first-edit="nothing" source-0="22481" master-source-0="22481"/>
+    <Region name="melody2-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="895999" position="7296000" beat="228" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="28" id="63661" type="midi" first-edit="nothing" source-0="63659" master-source-0="63659"/>
+    <Region name="melody2-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="896000" position="8192000" beat="256" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="28" id="64323" type="midi" first-edit="nothing" source-0="63659" master-source-0="63659"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="2372" control="0" order="0"/>
+    <StripableAutomationControl stripable="63099" control="0" order="13"/>
   </Selection>
   <Locations>
-    <Location id="322" name="session" start="896000" end="9536000" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
-    <Location id="2625" name="Loop" start="4480000" end="5376000" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    <Location id="322" name="session" start="896000" end="9984000" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+    <Location id="2625" name="Loop" start="7296000" end="8192000" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -183,6 +186,7 @@
           <Connection other="export_bus_melody0/audio_out 1"/>
           <Connection other="export_bus_melody1_L/audio_out 1"/>
           <Connection other="export_bus_melody1_R/audio_out 1"/>
+          <Connection other="export_bus_melody2/audio_out 1"/>
           <Connection other="export_bus_pluck_L/audio_out 1"/>
           <Connection other="export_bus_pluck_R/audio_out 1"/>
           <Connection other="export_bus_screech/audio_out 1"/>
@@ -196,6 +200,7 @@
           <Connection other="export_bus_melody0/audio_out 2"/>
           <Connection other="export_bus_melody1_L/audio_out 2"/>
           <Connection other="export_bus_melody1_R/audio_out 2"/>
+          <Connection other="export_bus_melody2/audio_out 2"/>
           <Connection other="export_bus_pluck_L/audio_out 2"/>
           <Connection other="export_bus_pluck_R/audio_out 2"/>
           <Connection other="export_bus_screech/audio_out 2"/>
@@ -569,7 +574,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <chunk>VkMyIesXAAA8ZGV4ZWRTdGF0ZSBjdXRvZmY9IjEuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIHJlc289IjAuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIGdhaW49IjEuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIGN1cnJlbnRQcm9ncmFtPSI3IiBtb25vTW9kZT0iMCIgZW5naW5lVHlwZT0iMiIgbWFzdGVyVHVuZT0iMCIgb3BTd2l0Y2g9IjExMTExMSIgd2hlZWxNb2Q9Ijk5IDAgMCAwIiBmb290TW9kPSIwIDAgMCAwIiBicmVhdGhNb2Q9IjAgMCAwIDAiIGFmdGVydG91Y2hNb2Q9IjAgMCAwIDAiIGFjdGl2ZUZpbGVDYXJ0cmlkZ2U9Ii9ob21lL3JtL2dpdC9jb20uZ2l0aHViL2lvN20vY29tLmlvN20ubXVzaWMuZHcuYnJvYWR3YXkvMC9keDdfYmFuay5zeXgiPjxkZXhlZEJsb2IgYmFzZTY0OnN5c2V4PSI0MTA0LnZPRC5JLkIuN3ZDLjdMRi4uLi4uLi4uLkhBZlZGLi5PeS52WGlNMVguLi4uLi4uSi5Yai4uWENPTXZ5WFlBLi4uLi4uLmZELkZRLi43TEMuaU1WV2NBLi4uLi4udi5mVEIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpSWlMeEhDQUdyQi4uLi4uWC5TTWZ6QkhTUVdYbVVGT3BuLkhpVUMuLi4uLi4uLkoudkRBLlh5RFhMMVhLQS4uLi4uLi5mQi5QUS4uaVVBRmFMVk0uLi4uLi4uLm4uUFRQLnZYc0x3WGlVQy4uLi4uLi4uSi5IRUIuTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYeEhpTHhQZkFxLi4uLi4uRnZUQ0hzLnhUekUxWWtjRExQcnhYR0EuLi4uLi4uZkIuSGcuLkpZU0NxTDFSLi4uLi4uLi5QQWZIUC52UVMudkppa1VWLi4uLi4uZlUubkNCLnZ5RC5MMVhpTUYuLi4uLi4uRS5XZy4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU1sTHhIaUxGYnZKLi4uLi5mQUwwLlJLZkxFY2djVllhNFFFMUwxSS4uLi4uLi4uRkFQUUYuLlhVTGdJaUFFLi4uLi4uLmZRLlREQi43MERNRHlYR0EuLi4uLi4uWEQuLkkuLmlRQkZpTVZXLi4uLi4uLi5EQXZSQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlJaUx4SEMuR3JCLi4uLi5YLlNNZnpCSFNRV1htVTFYLi52UWlNMVguLi4uLi4uVC5QQ0QuTEYuLkwxWGlNRi4uLi4uLmZCLkxnLi5pQS4uaU0xWGlBLi4uLi4uSEEuU0QudlguLnZYaU0xWC4uLi4uLi5OLnZEQS5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVh4SGlMeDN3QXEuLi4uLi5GdlRDSHMueFR6RTFZa0lGTGREeVh2Li4uLi4uLi4zQi5IQS4uV1FoR3dMRkwuLi4uLi4uLm4uLlAuLnZXUzNRTGlBQy4uLi4uLi5mSy4uRS4uN1VFZEwxWHYuLi4uLi4uLjNCLlVJLi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTWxMeEhpTC5YdkouLi4uLmZBTDAuUktmTEVjZ2NWWWZ3Qy53TDFSS0EuLi4uLi5QQS5XQi52WFRnVExpa0UuLi4uLi4uLlQubmsuLkwxVWREeVhLQS4uLi4uLi5IRS5VUS4uaUFTTmlNRksuLi4uLi4uLlBBdlZCLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaUlpTHhIaUFHckIuLi4uLlguaU1mekJIU1FXWG1VMVZkVEFIaWtFLi4uLi4uLi5KLlhDQy5qQy5TWHhYaUEuLi4uLi4uLkQuSFEuLlNNUUNhTEYuLi4uLi4uLi52LmZLRC5QVmcud1hpQS4uLi4uLi4uLlIuSGsuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWHhIaUx4WHZBcS4uLi4uLkZ2WENIcy54VHpFMVlrTWxHMUR5WG0uLi4uLi4uLmZDLmhnLi5pa3lMaU1GVS4uLi4uLi4udi5mWEQudlhFVXpKaTRDLi4uLi4uLi5SLlBFQi5MbE0rTDFYMC4uLi4uLi4uZkIuZFEuLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNbEx4SGlMRFh2Si4uLi4uZkFMMS5SS2ZMRWNnY1ZZWWNCLmZMVlZZQS4uLi4uLm4udlFCLlBTWC52WGlNMVguLi4uLi4uSi5Ia0EuamlKLkR5WEtzRC4uLi4uLi5DLkpJLi43M0EuaU1WVllBLi4uLi4uLkFmVEIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpSWlMeEhDQS5yQi4uLi4uWC55TWZ6QkhTUVdYbVUxVnkuUExpa1VWLi4uLi4uLk4uREVCLmJVTlVMMVhUQS4uLi4uLi4uQy5SUS4uV3NBRGxMMVIuLi4uLi4uLlBBLlFELnZVUzN3WGlNRi4uLi4uLi4uTi5Eai4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYeEhpTHhQZi5xLi4uLi4uRnZiQ0hzLnhUekUxWWswa0pKcndYLi4uLi4uLi4uLkUuRGdBLmVNQURhTDFYLi4uLi4uLi45Li5JSC52V1guQUhpQS4uLi4uLi4uLkouVENCLnJVRS5MMVgwVEMuLi4uLi4uRS5KSS4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU1sTHhIaUxHLnZKLi4uLi5mQUwyLlJLZkxFY2djVllpMHhEcUxsUC4uLi4uLi4uUEF2SkoudlhkcndYaWNELi4uLi4uLi5OLnpEQS5yME9hcnhYWUEuLi4uLi4uLkUuMmYuLlc0d0ZpTVZWLi4uLi4uLi5uLnZTRC52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlJaUx4SENBR3JCLi4uLi5YRGlNZnpCSFNRV1htVTFYS01DT2lVQy4uLi4uLi5mTi5Ea0cuTDFSMUwxWDAuLi4uLi4uLmZDLlg0Li5pZ2pHd0xWTS4uLi4uLi4uMy5mUFgudlgrTHlYaVVDLi4uLi4uLi5OLmZFQi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVh4SGlMeFB2QXEuLi4uLi5Gd1hDSHMueFR6RTFZa00xT2l3eVguLi4uLi4uLi4uRS5TSS4uaVVELjdMVk0wLi4uLi4uLlZBZlRGLnZYeS4uT2lBLi4uLi4uLi4uVS5IRS4uTDFMLkwxWC4uLi4uLi4uLi5FLlpBLi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTWxMeEhpTEZidkouLi4uLmZRTDQuUktmTEVjZ2NWWWE0QUZxTFZXLi4uLi4uLi5uLi5ORi52VmQudkppMFVXLi4uLi4uLkouYkUuLmowRFN2eVhpQS4uLi4uLi5mQi5GQS4uYVFoR2lNMVEuLi4uLi4uLm4udlRCLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaUlpTHhIeUFHckIuLi4uLlhIQ0xmekJIU1FXWG1VVlZtLi5PaXN6Ui4uLi4uLmZSLlhrQi43VUsuRHlYWWtFLi4uLi4ubkIuMUguLllRQi5xTFZXY0EuLi4uLi5SQWZRQi5QTlMudlhpa1VWLi4uLi4uZlQuN2ouLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWHhIaUx4YnZBcS4uLi4uLkZ4LkNIcy54VHpFMVlrQWtKZFh5WGlBLi4uLi4uLmZCLjgzLi5oTVNLaU1WVi4uLi4uLi4udi5mUUYuZlg0YmhNaTBFLi4uLi4uLi5KLkxFLi5IRklKTDFYY0EuLi4uLi4uZkIuUkkuLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNbEx4SGlMRGJ2Si4uLi4uZmdMdy5SS2ZMRWNnY1ZZci5BLmZMVk0wLi4uLi4uLjMuZlNILnZLUG5mSWljRC4uLi4uLi4uTi5IRS4uTFNIU3J4WDAuLi4uLi4uLmZCLkc0Li43M0FJaU1GVS4uLi4uLi4ubi5mVUoudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpSWlMeEhpQUdyQi4uLi4uWEhTTGZ6QkhTUVdYbVVWVm0uLk9pc3pSLi4uLi4uZlQuTGtCLjdVSy5EeVhZa0UuLi4uLi5uQi55SC4uWVFCLnFMVldjQS4uLi4uLlJBdlBCLlBOUy52WGlrVVYuLi4uLi4uVS5qay4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYeEhpTHhidkFxLi4uLi4uRnhmQ0hzLmhRbzRWWHJNQ0ZNcndYWUEuLi4uLi4uZkIuQmcuLnJEQi5pTWxQQkEuLi4uLi4zLnZTRC52TFh6dkZpa0UuLi4uLi4uLlIuN0NCLnZSSC5MMVhCSUQuLi4uLi5mQi5PUS4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU1sTHhIaUxEVHZKLi4uLi5mZ0wzLlJLZlhUWnRFRmFmZ0EubExGLi4uLi4uLi4uMy52Ti4uLlguZmdJaU1GLi4uLi4uLi5ULm5DQS4uMUlTWHhYVEEuLi4uLi4uZkMuS0EuLmlNQS5pTUYuLi4uLi4uLi5QQVBWLi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlJaUx4SGlBR3JCLi4uLi5YSENOZnpCSEZrbGFnd2xNNy5mSWlNMVguLi4uLi4uTC5YREIuTDBEZFh4WFlBLi4uLi4uLi5FLjhQLi40TEYucUwxWGlBLi4uLi4uUEFQTUIudlRVTHdYaWtFLi4uLi4uLi5OLjdEQS5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVh4SGlMeGJ2QXEuLi4uLi5GeGZDSHMuaFFvNFZYck1sSm12eVguLi4uLi4uLi4uQy5FQS4uNHZTSGZMMVguLi4uLi4uLm4uZlYuLnZYYVBCT2lNQi4uLi4uLi4uSi5IakEualNIWEwxWGNBLi4uLi4uLmZCLlVBLi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTWxMeEhpTEdidkouLi4uLmZnTDMuUktmWFRadEVGYUdBQ0RxTDFRLi4uLi4uLi5uLlBVRC52UDF6dkppc0QuLi4uLi4uLlQuSEJCLjd4RC5yeFhZa0UuLi4uLi5YRS41UC4uN0xBLmlNMVhpQS4uLi4uLlBBUFZELnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaUlpTHhIaUFHckIuLi4uLlhIQ05mekJIRmtsYWd3MVhwYkJPaUEuLi4uLi4uLi5MLlRELi5qQ09nLnhYaUEuLi4uLi4uZkIuWkEuLmlzQUk3TDFILi4uLi4uLi5uLmZQRi5QTmdmd1hpMEUuLi4uLi4uLkouVEUuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWHhIaUx4YnZBcS4uLi4uLkZ4ZkNIcy5oUW80Vlhya2lHLnZ5WFRRRS4uLi4uLi5FLkxJLi5HMC4uaU1WV2NBLi4uLi4uUkFQVEIudlFkLi5PaVFFVS4uLi4uLmZULnZqLi5iVEUuTDFYWWtFLi4uLi4uSEUuUUkuLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNbEx4SGlMRFh2Si4uLi4uZmdMMy5SS2ZYVFp0RUZhWWNCLmZMVlZZQS4uLi4uLm4udlFCLlBTWC52WGlNMVguLi4uLi4uSi43akEuamlKLkR5WEtzRC4uLi4uLi5DLkpJLi43M0EuaU1WVllBLi4uLi4uLkF2U0IudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpSWlMeEhDQS5yQi4uLi4uWEhDTmZ6QkhGa2xhZ3dGUGQuUExpUUVVLi4uLi4uLkoubmouLmJqRy5MMVhZa0UuLi4uLi5mQi5OSS4uRzAuLnFMRlVUQS4uLi4uLjMuLlJELlBOUGZ3WGlRRS4uLi4uLi4uVC4zREEuTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYeEhpTHhQdkFxLi4uLi4uRnhmQ0hzLmhRbzRWWHJNQ0ZNcndYWUEuLi4uLi4uZkIuQmcuLnJEQi5pTWxQQkEuLi4uLi4zLnZTRC52TFh6dkZpa0UuLi4uLi4uLlIuN0NCLnZSSC5MMVhCSUQuLi4uLi5mQi5PUS4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU1sTHhIaUxEVHZKLi4uLi5mZ0wzLlJLZlhUWnRFRmFHQUNEcUwxUS4uLi4uLi4ubi5QVUQudlAxenZKaXNELi4uLi4uLi5ULkhCQi43eEQucnhYWWtFLi4uLi4uWEUuNVAuLjdMQS5pTTFYaUEuLi4uLi5QQVBWRC52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlJaUx4SGlBR3JCLi4uLi5YSENOZnpCSEZrbGFnd1ZOZC4uT2lRRVUuLi4uLi4uVC52ai4uYlRDLkwxWGMwRS4uLi4uLkhFLlFJLi5HNEEuN0xGVVRBLi4uLi4uUkEuU0IudlFVLnZYaWtVVi4uLi4uLmZULkRrLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVh4SGlMeFBmQXEuLi4uLi5GeGZDSHMuaFFvNFZYck14OCIgYmFzZTY0OnByb2dyYW09IjE2MS5hNFFFZkxWVi4uLi4uLi4uLi4uLi5YQy5GLlBBNC52RGxMMVguLi4uLi4uLi4uLi4uZkQuQi4uQlNNUUNhTEYuLi4uLi4uLi4uLi4uLjNCLkIuZkFZRUJEaU1GLi4uLi4uLi4uLi4uLi5MRi5BLlBCV0wxWGlNMVhpQXZJLi4uLi4uLi4uVEQuQi5QQmlNMVhpTTFYaUF2SS4uLi4uLi4uLkxGLkEudkFpTTFYaUlpTHhIaUFHLmZIY0VBLi4udi5YLmlNZnpCSFNRV1htVTErc1ZFLi4uLiIvPjxtaWRpQ0MvPjwvZGV4ZWRTdGF0ZT4A</chunk>
+          <chunk>VkMyIesXAAA8ZGV4ZWRTdGF0ZSBjdXRvZmY9IjEuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIHJlc289IjAuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIGdhaW49IjEuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIGN1cnJlbnRQcm9ncmFtPSI3IiBtb25vTW9kZT0iMCIgZW5naW5lVHlwZT0iMiIgbWFzdGVyVHVuZT0iMCIgb3BTd2l0Y2g9IjExMTExMSIgd2hlZWxNb2Q9Ijk5IDAgMCAwIiBmb290TW9kPSIwIDAgMCAwIiBicmVhdGhNb2Q9IjAgMCAwIDAiIGFmdGVydG91Y2hNb2Q9IjAgMCAwIDAiIGFjdGl2ZUZpbGVDYXJ0cmlkZ2U9Ii9ob21lL3JtL2dpdC9jb20uZ2l0aHViL2lvN20vY29tLmlvN20ubXVzaWMuZHcuYnJvYWR3YXkvMC9keDdfYmFuay5zeXgiPjxkZXhlZEJsb2IgYmFzZTY0OnN5c2V4PSI0MTA0LnZPRC5JLkIuN3ZDLjdMRi4uLi4uLi4uLkhBZlZGLi5PeS52WGlNMVguLi4uLi4uSi5Yai4uWENPTXZ5WFlBLi4uLi4uLmZELkZRLi43TEMuaU1WV2NBLi4uLi4udi5mVEIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpSWlMeEhDQUdyQi4uLi4uWC5TTWZ6QkhTUVdYbVVGT3BuLkhpVUMuLi4uLi4uLkoudkRBLlh5RFhMMVhLQS4uLi4uLi5mQi5QUS4uaVVBRmFMVk0uLi4uLi4uLm4uUFRQLnZYc0x3WGlVQy4uLi4uLi4uSi5IRUIuTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYeEhpTHhQZkFxLi4uLi4uRnZUQ0hzLnhUekUxWWtjRExQcnhYR0EuLi4uLi4uZkIuSGcuLkpZU0NxTDFSLi4uLi4uLi5QQWZIUC52UVMudkppa1VWLi4uLi4uZlUubkNCLnZ5RC5MMVhpTUYuLi4uLi4uRS5XZy4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU1sTHhIaUxGYnZKLi4uLi5mQUwwLlJLZkxFY2djVllhNFFFMUwxSS4uLi4uLi4uRkFQUUYuLlhVTGdJaUFFLi4uLi4uLmZRLlREQi43MERNRHlYR0EuLi4uLi4uWEQuLkkuLmlRQkZpTVZXLi4uLi4uLi5EQXZSQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlJaUx4SEMuR3JCLi4uLi5YLlNNZnpCSFNRV1htVTFYLi52UWlNMVguLi4uLi4uVC5QQ0QuTEYuLkwxWGlNRi4uLi4uLmZCLkxnLi5pQS4uaU0xWGlBLi4uLi4uSEEuU0QudlguLnZYaU0xWC4uLi4uLi5OLnZEQS5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVh4SGlMeDN3QXEuLi4uLi5GdlRDSHMueFR6RTFZa0lGTGREeVh2Li4uLi4uLi4zQi5IQS4uV1FoR3dMRkwuLi4uLi4uLm4uLlAuLnZXUzNRTGlBQy4uLi4uLi5mSy4uRS4uN1VFZEwxWHYuLi4uLi4uLjNCLlVJLi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTWxMeEhpTC5YdkouLi4uLmZBTDAuUktmTEVjZ2NWWWZ3Qy53TDFSS0EuLi4uLi5QQS5XQi52WFRnVExpa0UuLi4uLi4uLlQubmsuLkwxVWREeVhLQS4uLi4uLi5IRS5VUS4uaUFTTmlNRksuLi4uLi4uLlBBdlZCLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaUlpTHhIaUFHckIuLi4uLlguaU1mekJIU1FXWG1VMVZkVEFIaWtFLi4uLi4uLi5KLlhDQy5qQy5TWHhYaUEuLi4uLi4uLkQuSFEuLlNNUUNhTEYuLi4uLi4uLi52LmZLRC5QVmcud1hpQS4uLi4uLi4uLlIuSGsuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWHhIaUx4WHZBcS4uLi4uLkZ2WENIcy54VHpFMVlrTWxHMUR5WG0uLi4uLi4uLmZDLmhnLi5pa3lMaU1GVS4uLi4uLi4udi5mWEQudlhFVXpKaTRDLi4uLi4uLi5SLlBFQi5MbE0rTDFYMC4uLi4uLi4uZkIuZFEuLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNbEx4SGlMRFh2Si4uLi4uZkFMMS5SS2ZMRWNnY1ZZWWNCLmZMVlZZQS4uLi4uLm4udlFCLlBTWC52WGlNMVguLi4uLi4uSi5Ia0EuamlKLkR5WEtzRC4uLi4uLi5DLkpJLi43M0EuaU1WVllBLi4uLi4uLkFmVEIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpSWlMeEhDQS5yQi4uLi4uWC55TWZ6QkhTUVdYbVUxVnkuUExpa1VWLi4uLi4uLk4uREVCLmJVTlVMMVhUQS4uLi4uLi4uQy5SUS4uV3NBRGxMMVIuLi4uLi4uLlBBLlFELnZVUzN3WGlNRi4uLi4uLi4uTi5Eai4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYeEhpTHhQZi5xLi4uLi4uRnZiQ0hzLnhUekUxWWswa0pKcndYLi4uLi4uLi4uLkUuRGdBLmVNQURhTDFYLi4uLi4uLi45Li5JSC52V1guQUhpQS4uLi4uLi4uLkouVENCLnJVRS5MMVgwVEMuLi4uLi4uRS5KSS4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU1sTHhIaUxHLnZKLi4uLi5mQUwyLlJLZkxFY2djVllpMHhEcUxsUC4uLi4uLi4uUEF2SkoudlhkcndYaWNELi4uLi4uLi5OLnpEQS5yME9hcnhYWUEuLi4uLi4uLkUuMmYuLlc0d0ZpTVZWLi4uLi4uLi5uLnZTRC52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlJaUx4SENBR3JCLi4uLi5YRGlNZnpCSFNRV1htVTFYS01DT2lVQy4uLi4uLi5mTi5Ea0cuTDFSMUwxWDAuLi4uLi4uLmZDLlg0Li5pZ2pHd0xWTS4uLi4uLi4uMy5mUFgudlgrTHlYaVVDLi4uLi4uLi5OLmZFQi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVh4SGlMeFB2QXEuLi4uLi5Gd1hDSHMueFR6RTFZa00xT2l3eVguLi4uLi4uLi4uRS5TSS4uaVVELjdMVk0wLi4uLi4uLlZBZlRGLnZYeS4uT2lBLi4uLi4uLi4uVS5IRS4uTDFMLkwxWC4uLi4uLi4uLi5FLlpBLi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTWxMeEhpTEZidkouLi4uLmZRTDQuUktmTEVjZ2NWWWE0QUZxTFZXLi4uLi4uLi5uLi5ORi52VmQudkppMFVXLi4uLi4uLkouYkUuLmowRFN2eVhpQS4uLi4uLi5mQi5GQS4uYVFoR2lNMVEuLi4uLi4uLm4udlRCLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaUlpTHhIeUFHckIuLi4uLlhIQ0xmekJIU1FXWG1VVlZtLi5PaXN6Ui4uLi4uLmZSLlhrQi43VUsuRHlYWWtFLi4uLi4ubkIuMUguLllRQi5xTFZXY0EuLi4uLi5SQWZRQi5QTlMudlhpa1VWLi4uLi4uZlQuN2ouLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWHhIaUx4YnZBcS4uLi4uLkZ4LkNIcy54VHpFMVlrQWtKZFh5WGlBLi4uLi4uLmZCLjgzLi5oTVNLaU1WVi4uLi4uLi4udi5mUUYuZlg0YmhNaTBFLi4uLi4uLi5KLkxFLi5IRklKTDFYY0EuLi4uLi4uZkIuUkkuLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNbEx4SGlMRGJ2Si4uLi4uZmdMdy5SS2ZMRWNnY1ZZci5BLmZMVk0wLi4uLi4uLjMuZlNILnZLUG5mSWljRC4uLi4uLi4uTi5IRS4uTFNIU3J4WDAuLi4uLi4uLmZCLkc0Li43M0FJaU1GVS4uLi4uLi4ubi5mVUoudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpSWlMeEhpQUdyQi4uLi4uWEhTTGZ6QkhTUVdYbVVWVm0uLk9pc3pSLi4uLi4uZlQuTGtCLjdVSy5EeVhZa0UuLi4uLi5uQi55SC4uWVFCLnFMVldjQS4uLi4uLlJBdlBCLlBOUy52WGlrVVYuLi4uLi4uVS5qay4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYeEhpTHhidkFxLi4uLi4uRnhmQ0hzLmhRbzRWWHJNQ0ZNcndYWUEuLi4uLi4uZkIuQmcuLnJEQi5pTWxQQkEuLi4uLi4zLnZTRC52TFh6dkZpa0UuLi4uLi4uLlIuN0NCLnZSSC5MMVhCSUQuLi4uLi5mQi5PUS4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU1sTHhIaUxEVHZKLi4uLi5mZ0wzLlJLZlhUWnRFRmFmZ0EubExGLi4uLi4uLi4uMy52Ti4uLlguZmdJaU1GLi4uLi4uLi5ULm5DQS4uMUlTWHhYVEEuLi4uLi4uZkMuS0EuLmlNQS5pTUYuLi4uLi4uLi5QQVBWLi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlJaUx4SGlBR3JCLi4uLi5YSENOZnpCSEZrbGFnd2xNNy5mSWlNMVguLi4uLi4uTC5YREIuTDBEZFh4WFlBLi4uLi4uLi5FLjhQLi40TEYucUwxWGlBLi4uLi4uUEFQTUIudlRVTHdYaWtFLi4uLi4uLi5OLjdEQS5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVh4SGlMeGJ2QXEuLi4uLi5GeGZDSHMuaFFvNFZYck1sSm12eVguLi4uLi4uLi4uQy5FQS4uNHZTSGZMMVguLi4uLi4uLm4uZlYuLnZYYVBCT2lNQi4uLi4uLi4uSi5IakEualNIWEwxWGNBLi4uLi4uLmZCLlVBLi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTWxMeEhpTEdidkouLi4uLmZnTDMuUktmWFRadEVGYUdBQ0RxTDFRLi4uLi4uLi5uLlBVRC52UDF6dkppc0QuLi4uLi4uLlQuSEJCLjd4RC5yeFhZa0UuLi4uLi5YRS41UC4uN0xBLmlNMVhpQS4uLi4uLlBBUFZELnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaUlpTHhIaUFHckIuLi4uLlhIQ05mekJIRmtsYWd3MVhwYkJPaUEuLi4uLi4uLi5MLlRELi5qQ09nLnhYaUEuLi4uLi4uZkIuWkEuLmlzQUk3TDFILi4uLi4uLi5uLmZQRi5QTmdmd1hpMEUuLi4uLi4uLkouVEUuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWHhIaUx4YnZBcS4uLi4uLkZ4ZkNIcy5oUW80Vlhya2lHLnZ5WFRRRS4uLi4uLi5FLkxJLi5HMC4uaU1WV2NBLi4uLi4uUkFQVEIudlFkLi5PaVFFVS4uLi4uLmZULnZqLi5iVEUuTDFYWWtFLi4uLi4uSEUuUUkuLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNbEx4SGlMRFh2Si4uLi4uZmdMMy5SS2ZYVFp0RUZhWWNCLmZMVlZZQS4uLi4uLm4udlFCLlBTWC52WGlNMVguLi4uLi4uSi43akEuamlKLkR5WEtzRC4uLi4uLi5DLkpJLi43M0EuaU1WVllBLi4uLi4uLkF2U0IudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpSWlMeEhDQS5yQi4uLi4uWEhDTmZ6QkhGa2xhZ3dGUGQuUExpUUVVLi4uLi4uLkoubmouLmJqRy5MMVhZa0UuLi4uLi5mQi5OSS4uRzAuLnFMRlVUQS4uLi4uLjMuLlJELlBOUGZ3WGlRRS4uLi4uLi4uVC4zREEuTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYeEhpTHhQdkFxLi4uLi4uRnhmQ0hzLmhRbzRWWHJNQ0ZNcndYWUEuLi4uLi4uZkIuQmcuLnJEQi5pTWxQQkEuLi4uLi4zLnZTRC52TFh6dkZpa0UuLi4uLi4uLlIuN0NCLnZSSC5MMVhCSUQuLi4uLi5mQi5PUS4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU1sTHhIaUxEVHZKLi4uLi5mZ0wzLlJLZlhUWnRFRmFHQUNEcUwxUS4uLi4uLi4ubi5QVUQudlAxenZKaXNELi4uLi4uLi5ULkhCQi43eEQucnhYWWtFLi4uLi4uWEUuNVAuLjdMQS5pTTFYaUEuLi4uLi5QQVBWRC52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlJaUx4SGlBR3JCLi4uLi5YSENOZnpCSEZrbGFnd1ZOZC4uT2lRRVUuLi4uLi4uVC52ai4uYlRDLkwxWGMwRS4uLi4uLkhFLlFJLi5HNEEuN0xGVVRBLi4uLi4uUkEuU0IudlFVLnZYaWtVVi4uLi4uLmZULkRrLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVh4SGlMeFBmQXEuLi4uLi5GeGZDSHMuaFFvNFZYck14OCIgYmFzZTY0OnByb2dyYW09IjE2MS5hNFFFZkxWVi4uLi4uLi4uLi4uLi5YQy5GLlBBNC52RGxMMVguLi4uLi4uLi4uLi4uZkQuQi4uQlNNUUNhTEYuLi4uLi4uLi4uLi4uLjNCLkIuZkFZRUJEaU1GLi4uLi4uLi4uLi4uLi5MRi5BLlBCV0wxWGlNMVhpQXZJLi4uLi4uLi4uVEQuQi5QQmlNMVhpTTFYaUF2SS4uLi4uLi4uLkxGLkEudkFpTTFYaUlpTHhIaUFHLmZIUkVBLi4udi5YLmlNZnpCSFNRV1htVTErc1ZFLi4uLiIvPjxtaWRpQ0MvPjwvZGV4ZWRTdGF0ZT4A</chunk>
         </lxvst>
         <Controllable name="Cutoff" id="7796" flags="" value="0" parameter="0"/>
         <Controllable name="Resonance" id="7798" flags="" value="0" parameter="1"/>
@@ -579,7 +584,7 @@
         <Controllable name="FEEDBACK" id="7806" flags="" value="0" parameter="5"/>
         <Controllable name="OSC KEY SYNC" id="7808" flags="" value="0" parameter="6"/>
         <Controllable name="LFO SPEED" id="7810" flags="" value="0.34343433380126953" parameter="7"/>
-        <Controllable name="LFO DELAY" id="7812" flags="" value="0.93939393758773804" parameter="8"/>
+        <Controllable name="LFO DELAY" id="7812" flags="" value="0.82828283309936523" parameter="8"/>
         <Controllable name="LFO PM DEPTH" id="7814" flags="" value="0.17171716690063477" parameter="9"/>
         <Controllable name="LFO AM DEPTH" id="7816" flags="" value="0" parameter="10"/>
         <Controllable name="LFO KEY SYNC" id="7818" flags="" value="0" parameter="11"/>
@@ -1696,7 +1701,7 @@
       <Diskstream flags="Recordable" playlist="sketch-t4-1-4" name="sketch-t4-1-4" id="548" speed="1" capture-alignment="Automatic" record-safe="0"/>
     </Route>
     <Route id="605" name="growler" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1">
-      <PresentationInfo order="7" flags="MidiTrack,OrderSet" color="3850138367"/>
+      <PresentationInfo order="8" flags="MidiTrack,OrderSet" color="3850138367"/>
       <Controllable name="solo" id="613" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="619" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="621" flags="Toggle" value="0" solo-safe="0"/>
@@ -2184,7 +2189,7 @@
       <Diskstream flags="Recordable" playlist="sketch-t5-1-5" name="sketch-t5-1-5" id="646" speed="1" capture-alignment="Automatic" record-safe="0"/>
     </Route>
     <Route id="703" name="screech" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1">
-      <PresentationInfo order="8" flags="MidiTrack,OrderSet" color="3437589247"/>
+      <PresentationInfo order="9" flags="MidiTrack,OrderSet" color="3437589247"/>
       <Controllable name="solo" id="711" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="717" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="719" flags="Toggle" value="0" solo-safe="0"/>
@@ -2786,7 +2791,7 @@
       <Diskstream flags="Recordable" playlist="sketch-t6-1-6" name="sketch-t6-1-6" id="744" speed="1" capture-alignment="Automatic" record-safe="0"/>
     </Route>
     <Route id="805" name="pluck_L" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1">
-      <PresentationInfo order="9" flags="MidiTrack,OrderSet" color="1927666431"/>
+      <PresentationInfo order="10" flags="MidiTrack,OrderSet" color="1927666431"/>
       <Controllable name="solo" id="813" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="819" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="821" flags="Toggle" value="0" solo-safe="0"/>
@@ -3199,7 +3204,7 @@
       <Diskstream flags="Recordable" playlist="sketch-t7-1-7" name="sketch-t7-1-7" id="846" speed="1" capture-alignment="Automatic" record-safe="0"/>
     </Route>
     <Route id="911" name="pluck_R" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1">
-      <PresentationInfo order="10" flags="MidiTrack,OrderSet" color="3852038911"/>
+      <PresentationInfo order="11" flags="MidiTrack,OrderSet" color="3852038911"/>
       <Controllable name="solo" id="919" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="925" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="927" flags="Toggle" value="0" solo-safe="0"/>
@@ -3612,7 +3617,7 @@
       <Diskstream flags="Recordable" playlist="sketch-t8-1-8" name="sketch-t8-1-8" id="952" speed="1" capture-alignment="Automatic" record-safe="0"/>
     </Route>
     <Route id="1021" name="arp" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1">
-      <PresentationInfo order="11" flags="MidiTrack,OrderSet" color="3856262143"/>
+      <PresentationInfo order="12" flags="MidiTrack,OrderSet" color="3856262143"/>
       <Controllable name="solo" id="1029" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="1035" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1037" flags="Toggle" value="0" solo-safe="0"/>
@@ -4211,7 +4216,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state10"/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state11"/>
       </Processor>
       <Processor id="20908" name="Calf Compressor" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Compressor" count="1" custom="0">
         <Automation>
@@ -4382,7 +4387,7 @@
       <Diskstream flags="Recordable" playlist="sketch-t10-1-10" name="sketch-t10-1-10" id="1178" speed="1" capture-alignment="Automatic" record-safe="0"/>
     </Route>
     <Route id="1761" name="bass_0 1" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="bass_group">
-      <PresentationInfo order="12" flags="MidiBus,OrderSet" color="2984626431"/>
+      <PresentationInfo order="13" flags="MidiBus,OrderSet" color="2984626431"/>
       <Controllable name="solo" id="1769" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="1775" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1777" flags="Toggle" value="0" solo-safe="0"/>
@@ -4801,7 +4806,7 @@
       <Slavable/>
     </Route>
     <Route id="1802" name="bass_0 2" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="bass_group">
-      <PresentationInfo order="13" flags="MidiBus,OrderSet" color="3849491455"/>
+      <PresentationInfo order="14" flags="MidiBus,OrderSet" color="3849491455"/>
       <Controllable name="solo" id="1810" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="1816" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1818" flags="Toggle" value="0" solo-safe="0"/>
@@ -5034,7 +5039,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <chunk>VkMyIY4XAAA8ZGV4ZWRTdGF0ZSBjdXRvZmY9IjAuNzYzOTk5OTk4NTY5NDg4NTI1MzkiIHJlc289IjAuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIGdhaW49IjEuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIGN1cnJlbnRQcm9ncmFtPSIwIiBtb25vTW9kZT0iMCIgZW5naW5lVHlwZT0iMiIgbWFzdGVyVHVuZT0iMCIgb3BTd2l0Y2g9IjExMTExMSIgd2hlZWxNb2Q9Ijk5IDAgMCAwIiBmb290TW9kPSIwIDAgMCAwIiBicmVhdGhNb2Q9IjAgMCAwIDAiIGFmdGVydG91Y2hNb2Q9IjAgMCAwIDAiPjxkZXhlZEJsb2IgYmFzZTY0OnN5c2V4PSI0MTA0LnZPRC5JLkIuaU0xWGlNMVhpQS4uLi4uLjMuLi5CLnZYaU0xWGlNMVguLi4uLi4uTi4uZi4uTDFYaU0xWGlNRi4uLi4uLmZDLi5ILi5pTUZMaU0xWCsuLi4uLi4uMy52WC4udlhpUTBYaU1GLi4uLi4uLi5OLkxGLi5MMVh0TDFYaWtFLi4uLi4uZkMuaUEuLmlNMVhpSWlMeEhDQUhMQi4uLlBMWExXY2hBQkhmLkJIZi5CUkxvLkhpVUVULkRDLi4uLk5IUEVFLnZUUkp2d1hib0UueC4uLi5mQUFaUS4ud25qQmZIbFhoQVBKOC5qQkhndlFELnZNT252S2l3RVcuZnlWLkwuYkRMRkEuYkNIZnpRV2RvRS5EQXZYQi4uQVhRUC4yZmlCdUxsWC5BdklpQXZDWGdmWEREZlhoSWxYMERpTHgzdkNnTEJELi5BQ0xFVFVSa1RRZi5CSGZMbEsxVDBYZk1GLjQuLi4ubkNBaVV2Umk0aEhhTTFXaUEuLi4uLi55QWZTR0RDVklVU1dpMEQuLi4uLi4uZmJickVEQ2ZFTjd6MFhNQS4uLi4uLi5MRUVPSS5HWGdDT2NNVlMuLi4uLi4uLmlmd1RCSGxTZnZCT2lVRS4uLi4uLi5mSi5MRi5HWFVXaU1GLnouUFdRN3ZILi4uLncuZlBrRUZjc1VGWnhRbGJpWVJGb0xGUkhBdkkuRHZDdlFmVEQudlhtalFIaWNEUC5iQi4uNy5iLlBDQS5MRlNpOHhYWEFGLm0uLi5PLkcuYkkuLmljUkZnTDFRLkF2SS5EdkMzUHZYRC52WGxqQUlpZ0RSLmJCLi43Lk4uM0RCLkxGU2k4eFhYQUYubS4uLk9mQy4uSC4uVDgwVzdIaUx4SHlHTlRCLi4uLlBYLkVSQUkwU0hBQkhmLnhYdkQuRmQ4RC4udmlNLkR2UUxMbEcuNzBISHZ3WEZBLi56LnZIQ3ZFRE9ZLi5lQVJGZ0xsUS4uLi4uLi4uYWJ3WEIuUFV4SGZCaVlELi5uQy5rLnZCLjdqRC5yaktQdnZYRkEuLnpmLi5DckJDT1EuLko0d0ZlTGxRLi4uTy4uLi5pY3dYQi5mV0M4RU94SGlMeEhmQ2hEQi4uakFDQ2dsYnUwVlhmVENIYlVrT1h6eFhpQS4uZi4uLkNQdy5Mb1BUVG9pRGpMVlcuLi5ILkhBLjZ2UVZELnZVc3JRS2lNRi4uLnhYLkxmLlBMbC4uVGtPWDN4WGlBLi5mLi4uQ3YuLkdvUC5Wb2lEakxWVy4uLkguSEEuQ1BRVkRELlZzclFLaU1GLi4ueFguTGYuUExsLkEuLi4uLmZMeEhpTENmUEYubi4uSHYuU2dZV1p6RWxiZi5CVy4uLkRlTDFYaUEuLi5QLi5QTS5UQi5mUS4uUUVhTTFYLi4uLi4uLlQuM2ouLjNCLk9YQldpTUYuLi4uLi4uRS5pSS4uLi4uLmZMMVhpQS4uLi4uLm5ILlQuTGxMLmpmRGZNMVguZkEuRS4uTi5IRS5pNEIuYlhSV2lNRi4uLi4uLi4uLmlFUEFpTTFYaUlpTHhIeS5LYkEuTy5QRExMRWF1TTBjckF4S3V2a1NlWXpCaUExUi5iQy5hLlBiLjdDQS5maEdZUHhYWm9FLnkuLi4uRHcuaUkuLjk3a1FMTEZYT0EuTC4zQS5ZLi5RRC4uSmRqQUlpb2tWLkxDLi4uUFhXTGwuQWp5V0Zzdlhmc0UuaC5mSC5qRi5ISS4ubjNRRmpMbFZaQXZMLi4uLklMd1hCLlBOU0FFVXFMaUx4VFBBYi5pSGlnQkZPSURIR1VsYTFrbGNiTTFFSzN2WFl3RS5PLi4uRFhFLjBQUy5CNHZCYjNVVlpBdkMuLi5BVlEuUkYuLlZOTGpJaWswUS43Li4uUGZLLmZrSy5ma0NHY3hYWWdFLk8uLi5EM0MuZ0kuLmhBMUZwTEZHUkF2Qy4zLkF2QS5YRDcyWEpiLktpQVZWLjcuLk5QLmIuTEYuLkwxWGlNMUl4VGlLTjdQQS5MRi56QXZUQWNFSEUwREhVQUVIeW54SFFMMVhpQWZHLlguLmZNLktCLnZMUUhoRWlNMVguM0EuUS4uWEJMbC4ubmhJVDN3WGlNRi5mLi4uLi5GQmlJLi4wblJJWUwxWGlNbEcuTC4uLk1mTy5MVk1RSHhFaU0xWC4zQS5NLi5QQkhGLmlvaElUN3dYaU1GLmYuLi4uLkRCaUF2WGlNMVRpOHhNeEh5Lk1ELi4uVEVCTHZqUU9JVVk1QXhKcXYwWFhMRkouLnZYLi4uLi4uUE4uLmYuLkxGSGlnQi4uTEYuLi4uLi5qQy5pQXZMaU14WG4uLi5oQS4uLi4uLjQudlguLnZYbUxGSi4udlguLi4uLi5QTi5MbC4uTFZLaWdCLi5MRi4uLi4uLmpDLmlJZkZpTXhYbkwxUS4uLi4uLi4uNC52WEJ6dlhpTUZKeEhpTHg3QUJUN2pHQmJBRkU0elBPVWtTVFVqVFNzdkNXZmlTS01GLi4uLi4uLkcuaVVQSWlNMVgyTDFYaUEuLi4uLi52QWZXLi52Qk9iUU5Oc3pYLi4uLi4uLkYuTFZBbEwxWGlneVhpTUYuLi4uLi4uLi5kQS4uSzd2RTEzelJpQS4uLi4uLnZBdlhFWHhYaU1WTWlNMVguLi4uLi4uTi4zRS4uTEZHaU1sTHhIaUxEN2ZLLjNQSzBmQVVuVW1halVsYmYueEwuVFVDcUh5WC4uZkMuLi4uTkF2VEguLkNXVXhKMExGLi4zLi4uLi5ELkxGQS5qd1VocmhOaUEuLk4uLi4uLkYuaVEuLi5iMEpxN3hYLi5mQy4uLi4zLnZXRC4uLll3eUpBTUYuLjMuLi4uLlguSEVDLjdURTdyeFhQQS4uTi4uLi5mQy5pUS4uLi4uLi5IaUx4SFNFT25BRWkuUERMVHpYbjhWUWlnMWFmTFNNR0hCS2lRa0cuRGkuLkwuVERUQ0QuSHdCb1h4WDZ2QS54Li5JQy5EQmJJLi5WZlBJcUwxVXMuUE1RLnYuSWcuUUouLkhRcndKaW9EUC5uQi4uLi5KRS5sLi5IZ0RadndYR1FDLnRQdkhDSGdBUkkuLjdYUEVrTGxXMC5mWC4udkNYa3ZYQi52WGlNMVh4SGlMeGZ2QXAuLi4uRENDc0RqU0F3elNHQVJMc1BSRnc3d1hEQS4uLi4uLi5mQ0I5LnhSa1hnRXhMbEVPLi4uLi4uLm44dlhKLi5JalhBS2lvUkkuLi4uLi4uVkF2Qk4ubkJEZ2p4WGYuLi4uLlBBLi55LmlvLi5ZZmdFYUxsUC4uLi4uLi4uWEEuSWQudkhSWHdIaUEwSi4uLi4uLi4uQ0xsQi5MMVhpTWxMeEhpTER2dkkuWC4uWExBVHRqelBFQWhMMDNSTGl3Q0p3TDFXLi4uLi4uLi4zLmZTRzN4WDdMUkxpOEUuLi4uLi4uLkouYjBBdExGT2ZEeVhlQS4uLi4uLi5mQy5TYy5EWmN2LkdMbFcuLi4uLi4uLjYuLk5GRHlYd1hCR2k0RS4uLi4uLi52Ti4uay4rTTFGMHJ4WGFBLi4uLi4uLmZDLmlJLi5pb1NLWEhDTGJJaS5ITEIuLi5QTFhYRFNFZ1VSZi5CSGZQeVhVTWxLTXdrWC5iUk1ULnZPLjMuQS5MbFZWYkNUY1VFLnZMRkRCN0MuSkkuLmlvaEVGTVZYNy52SWJzVEIrLmZSQi52WFNZd1Bpd0VULkhSQi4udk8uamsuLkxGUW1MMVhpTVZYLi5QUC43Qy5SSS4uU2NoSDguMVhjQS4uLi4uLisudlhCLmZXQzhFT3hIaUx4RHdBeWJCLi5qQ0ZBSUVUZkhpTXYuQ0hmTGxLLnZ3WGNjRS4xLi4uLkRDLkdRLi5pNEIuYkxWV1dBZk0uLi4uNC5QU0Iudlh0Li5HaTAwVS5YQy4uLlBKRFBrLi4zUkhUTHhYYlFFLi4uLi4uSC5DaUUuLmlNMVhZTDFYaUEuSlRiLi52QVBXLi5mTGlNbEdpTTFYLi4uLi4uLmIuTEZBLkwxWGlNbEx4SGlMQVhmSWcuLi40ZlFQeEEySkJVbWQ1STBiTjhrUWNMRlhLQXZNLnJELjRIdlhELlBGWXZQT2lNMVguTEMuLi5QTi5Uay4uRHhXRjB3WGlNRi52LmZHLkRHLlpRLi54akFDRk1sVmdBdkwuLi4uNFB3WEJELkdlWVRHaUExUy4uQy5DQVAuRG5FQS5IUkZMRHhYaWtDLnkuLi4uakNCaUkuLkpUZkFGSGlMeEhpRXNUaEpsUEJGWFBrVFdBQkhmLkJIZi54VE1uU0Rpb2tWLi5SLi4uUEguRGtILkhFQ2Uud1hYZ0Uua0QuLi5EQi42My4uWU1GTmpMMVhpQS4uLkguLm8udlQuLlBEZVhRSGlNMVguLi4uRy5QSi5MbC4uM2pDS2p3WFJjMEtMLi4uLkRFLkFJQi5RLmhIZEwxWGlBLi4uLi4uUUF2WEIudlhpTWxQeUhpTHhiUENpTWZHLkhBRk1ralRJUXpTUkFSTGYzRUtvM3hYK1hDLmlIVEFOamkuT0FBLmVFUkxpTDFMMS5QSi5QLkM2SGdURi5mV1cuVE1pTWlNLmJETEdQZk5SYkRBLkhqRXBieFh5VEMubWJ4QUxUZkNpSVAuaVV3WGJMRi4uLnZLZG4uQkZJQVNCRHZYVUxGR2lBLi4ubmZHSmZmYVZMbC5BenpWM3Z5THhIaUxHei5QLi52WHlmQVFFWVVSTEFCVUFNelJLblFBYkwxVy4uLi4uLi4uNi52UkVMaEJZLmZKaTRFLi4uLi4uLi5OLlhEQWlrUEYubnhYZEEuLi4uLi4uZkMuT01mU0wuUURHTGxXLi4uLi4uLi42N21VLi5URC5mLkdpRWxVLi4uLi4udk4uLjAuMG53Qlpid1guLi4uLi4uLi5mQy5pQVBRUkEuLk5IQ012SENERkxCLi4udk4uSFVVTUlEU0VBQkhmRHlYUDMuRHhIeFguYkIuLi4uSC5QREguYnZDUVB4WFVvQy5tLi4uLi5CLmlBQS5GenZCWFhTVWlBdkkuLi4uMy52VkQuLkZPRHdJaVVFSC5iQi4uLi5OLkxGQS5mLkNPVEFNVU1GLm0uLi4uZkQuVncuLmdQZ0ZtTFZVMC52SS4uLi5IQXZYRi52WGlNMVh4SGlMeFQuQ0x2UEEuZkJDQ0V6VENFRFFFQWhMd0wxWGlNMVhpTUYuQ01GLi4uMi5pYy5EaU0xWGlNMVhpQXZQaU1GLi5MUFcuLnhYaU1GUWlNMVgucnhYaUEuQkNMMUFMTDFYaU0xWGlNRi5xTDFYLmZ3LmlRLkhpTTFYaU0xWGlBLkUuTEYuUEx2WEdmdlRpTTFYaU0xWC5QQS5pQS4uQ25FQ01NMVhpTWxMeEhpTGVqLi4uLi4ueWZ3UHJQREtFSUZLRkFCSFhma0trdnlYLi4uLi4uLi4zTHZYUmIuR1hBU0k3TEYuLi4uLi4uLk5DTGxDSS5CVnRUQk9pQS4uLi4uLi5meS5pb3ZDamprS2t2eVguLi4uLi4uLjNMdlhKLlBLWDRSSTdMRi4uLi4uLi4uTkNMRkFLTEZWdVh4WGlBLi4uLi4uLmZ5LmlRLi5pTTFYaUlpTHhIeUdITEYuLi52TUxQVWN0UTFUekVGY2k0a0hkSFFJaWNERi5YQi5Bd3ZEUGppRkhiZ0daM3hYUVVDLnhYRC5PSFZCclAuLmRYeExzTEZSYi52SjhQdy5aRFFOQi5QS1dQeEppc1RNLi4uLi4udkxGTGwuLkwxRjduUVJpQS4uLjdRQkNmUUNpSS4uaVVRSXBMMVhhQS4uLi4uLmprdlhCLnZYaU0xWHhIaUx4WHZDWGpTQllEQ0NzYjBTQklEU0VBUkxzakNITTR3WGlvQy5KLi4uRGZDQmlBLi5LM1FGYkwxWC4uZkIuLi5BM2YuV0ouZkZHUXdJaU1GLi4uLi4uUC5OSHpFQS5udlhUanhYaUEuLi4uLi4uZkNBY0FQLlJMRkVpTTFYLi4uLi4uLi4zZmZWRC4uR2lRd0hpTVZELi4uLi4uLk5ETEYuLkxsWEt3aUx4SGlMUEx2SFlBLi5IZmdRSXdEVUVJVUtTY0VUVG4uR1gzMFQuQWZKMS5QLjN2LlBGLnZHSGJBR2lja1AudlJBTkwuTkh2ay4ubkRMTFBSVGlRRC51ZlBDLmZDRWlJLi5YblJDSkxGV0JBUEtJdi4uMy5QT0QuZkd0Zi5DaU0xUC56QkJMRC5OLlBrLi52akREdkJVaVlELnJuUEMuLkdFaUkuLmRNelc3SGlMeEhpLk5mQ1EuN3lFWExVUEhFalRBQUJIZi54WGlRUU5pTWxCLi4uLi4uLk4ucmlIaWN2WGlrd1hpTUYuLi4uLi5mQy5zWFFNaUwxWGNMMVhpQS4uLi4uLjMudlhKbnhFaU1WRmlNMVguLi4uLi4uTi5MbENHc2dFaW9SVWlNRi4uLi4uLmZDLlJJQi5uTDFYakwxWGlBLi4uLi4uUEF2WFRYUFBpTTFYeEhpTHgzZkFpLi4uLkRDLkV3VFFDUWtUTzRESHdMRi4uLnZYaU1GLk8uLi5EYi4uTEkuLktveFFoTDFYaUF2Qy4uLkF5QXZYQi52WEg4UUQuWEQuLjcuLi5Qdk8uTEZELkwxWGpMeFhpQS4uTy4uLkRyQy5pSS4uaUEuLi5MMVhpQXZDLi4uQW1BUFUuLi5NcGJqSGlNMVguNy4uLlB2WC5MbC4uTDFYaU1sTHhIaUxXN3ZGbi5BLmZmZ1BBNHpSU3dCSFQ0QkhYTDFYWXp3RmVMRi4uLi4udkEuVi4udlhpTWxGRlVDTWlBLi4uLi5CLlhULi56dlhpY1FTTThELi4uLi4uZkMuTXcuLjVMMVhrTDFYaUEuLi4uLi4zLnZYQi52WGlNMUVNMHpTaUEuLi4uLk4uVERDWGp3WGlVeFhpTUYuLi4uLi5mQS5WUS5GaU0xWGlJaUx4SENCTmp2LkcuLkRMTEVhdWMyTERBQlRnUVZOZnpqR2lNbE4ubi4uLlAuTERMVi5ZcmZHWXZ3WGlBLi5KLi4uRGZDQWJnLi5aYkRFbUwxWC4uLi4uLi5BSFFQV3lULkJKUFFKaU1GLi4uLi4uLi5ORXprQy5Id1hUUHhYaUEuLi4uLi4uLlRBWlEuLmJMRkVpTDFYUS4uLi4uLi4zVHZYTC5mWGhzRE94SGlMeC53LmlMbEJILkNDTFl6U2ZMMFVFVURUZjd3OCIgYmFzZTY0OnByb2dyYW09IjE2MS5pTTFYaU0xWGlBLi4uLi4uLi4uLi4uLi5BLnZBaU0xWGlNMVhpQS4uLi4uLi4uLi4uLi4uQS52QWlNMVhpTTFYaUEuLi4uLi4uLi4uLi4uLkEudkFpTUZMaU0xWCsuLi4uLi4uLi4uLi5MRi4uLnZBaU1GVWlNMVguLi4uLi4uLi4uLi4uTEEuLi52QWlNbEtpTTFYWUEuLi4uLi4uLi4uLkxGLi4udkFpTTFYaUlpTHhIQ0EuRHZILi4uLkEudi5YTFdjaEFCSGYuQkhmLkIuKytHQVlGSyIvPjxtaWRpQ0MvPjwvZGV4ZWRTdGF0ZT4A</chunk>
+          <chunk>VkMyIY4XAAA8ZGV4ZWRTdGF0ZSBjdXRvZmY9IjAuNzYzOTk5OTk4NTY5NDg4NTI1MzkiIHJlc289IjAuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIGdhaW49IjEuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIGN1cnJlbnRQcm9ncmFtPSIwIiBtb25vTW9kZT0iMCIgZW5naW5lVHlwZT0iMiIgbWFzdGVyVHVuZT0iMCIgb3BTd2l0Y2g9IjExMTExMSIgd2hlZWxNb2Q9Ijk5IDAgMCAwIiBmb290TW9kPSIwIDAgMCAwIiBicmVhdGhNb2Q9IjAgMCAwIDAiIGFmdGVydG91Y2hNb2Q9IjAgMCAwIDAiPjxkZXhlZEJsb2IgYmFzZTY0OnN5c2V4PSI0MTA0LnZPRC5JLkIuaU0xWGlNMVhpQS4uLi4uLjMuLi5CLnZYaU0xWGlNMVguLi4uLi4uTi4uZi4uTDFYaU0xWGlNRi4uLi4uLmZDLi5ILi5pTUZMaU0xWCsuLi4uLi4uMy52WC4udlhpUTBYaU1GLi4uLi4uLi5OLkxGLi5MMVh0TDFYaWtFLi4uLi4uZkMuaUEuLmlNMVhpSWlMeEhDQUhMQi4uLlBMWExXY2hBQkhmLkJIZi5CUkxvLkhpVUVULkRDLi4uLk5IUEVFLnZUUkp2d1hib0UueC4uLi5mQUFaUS4ud25qQmZIbFhoQVBKOC5qQkhndlFELnZNT252S2l3RVcuZnlWLkwuYkRMRkEuYkNIZnpRV2RvRS5EQXZYQi4uQVhRUC4yZmlCdUxsWC5BdklpQXZDWGdmWEREZlhoSWxYMERpTHgzdkNnTEJELi5BQ0xFVFVSa1RRZi5CSGZMbEsxVDBYZk1GLjQuLi4ubkNBaVV2Umk0aEhhTTFXaUEuLi4uLi55QWZTR0RDVklVU1dpMEQuLi4uLi4uZmJickVEQ2ZFTjd6MFhNQS4uLi4uLi5MRUVPSS5HWGdDT2NNVlMuLi4uLi4uLmlmd1RCSGxTZnZCT2lVRS4uLi4uLi5mSi5MRi5HWFVXaU1GLnouUFdRN3ZILi4uLncuZlBrRUZjc1VGWnhRbGJpWVJGb0xGUkhBdkkuRHZDdlFmVEQudlhtalFIaWNEUC5iQi4uNy5iLlBDQS5MRlNpOHhYWEFGLm0uLi5PLkcuYkkuLmljUkZnTDFRLkF2SS5EdkMzUHZYRC52WGxqQUlpZ0RSLmJCLi43Lk4uM0RCLkxGU2k4eFhYQUYubS4uLk9mQy4uSC4uVDgwVzdIaUx4SHlHTlRCLi4uLlBYLkVSQUkwU0hBQkhmLnhYdkQuRmQ4RC4udmlNLkR2UUxMbEcuNzBISHZ3WEZBLi56LnZIQ3ZFRE9ZLi5lQVJGZ0xsUS4uLi4uLi4uYWJ3WEIuUFV4SGZCaVlELi5uQy5rLnZCLjdqRC5yaktQdnZYRkEuLnpmLi5DckJDT1EuLko0d0ZlTGxRLi4uTy4uLi5pY3dYQi5mV0M4RU94SGlMeEhmQ2hEQi4uakFDQ2dsYnUwVlhmVENIYlVrT1h6eFhpQS4uZi4uLkNQdy5Mb1BUVG9pRGpMVlcuLi5ILkhBLjZ2UVZELnZVc3JRS2lNRi4uLnhYLkxmLlBMbC4uVGtPWDN4WGlBLi5mLi4uQ3YuLkdvUC5Wb2lEakxWVy4uLkguSEEuQ1BRVkRELlZzclFLaU1GLi4ueFguTGYuUExsLkEuLi4uLmZMeEhpTENmUEYubi4uSHYuU2dZV1p6RWxiZi5CVy4uLkRlTDFYaUEuLi5QLi5QTS5UQi5mUS4uUUVhTTFYLi4uLi4uLlQuM2ouLjNCLk9YQldpTUYuLi4uLi4uRS5pSS4uLi4uLmZMMVhpQS4uLi4uLm5ILlQuTGxMLmpmRGZNMVguZkEuRS4uTi5IRS5pNEIuYlhSV2lNRi4uLi4uLi4uLmlFUEFpTTFYaUlpTHhIeS5LYkEuTy5QRExMRWF1TTBjckF4S3V2a1NlWXpCaUExUi5iQy5hLlBiLjdDQS5maEdZUHhYWm9FLnkuLi4uRHcuaUkuLjk3a1FMTEZYT0EuTC4zQS5ZLi5RRC4uSmRqQUlpb2tWLkxDLi4uUFhXTGwuQWp5V0Zzdlhmc0UuaC5mSC5qRi5ISS4ubjNRRmpMbFZaQXZMLi4uLklMd1hCLlBOU0FFVXFMaUx4VFBBYi5pSGlnQkZPSURIR1VsYTFrbGNiTTFFSzN2WFl3RS5PLi4uRFhFLjBQUy5CNHZCYjNVVlpBdkMuLi5BVlEuUkYuLlZOTGpJaWswUS43Li4uUGZLLmZrSy5ma0NHY3hYWWdFLk8uLi5EM0MuZ0kuLmhBMUZwTEZHUkF2Qy4zLkF2QS5YRDcyWEpiLktpQVZWLjcuLk5QLmIuTEYuLkwxWGlNMUl4VGlLTjdQQS5MRi56QXZUQWNFSEUwREhVQUVIeW54SFFMMVhpQWZHLlguLmZNLktCLnZMUUhoRWlNMVguM0EuUS4uWEJMbC4ubmhJVDN3WGlNRi5mLi4uLi5GQmlJLi4wblJJWUwxWGlNbEcuTC4uLk1mTy5MVk1RSHhFaU0xWC4zQS5NLi5QQkhGLmlvaElUN3dYaU1GLmYuLi4uLkRCaUF2WGlNMVRpOHhNeEh5Lk1ELi4uVEVCTHZqUU9JVVk1QXhKcXYwWFhMRkouLnZYLi4uLi4uUE4uLmYuLkxGSGlnQi4uTEYuLi4uLi5qQy5pQXZMaU14WG4uLi5oQS4uLi4uLjQudlguLnZYbUxGSi4udlguLi4uLi5QTi5MbC4uTFZLaWdCLi5MRi4uLi4uLmpDLmlJZkZpTXhYbkwxUS4uLi4uLi4uNC52WEJ6dlhpTUZKeEhpTHg3QUJUN2pHQmJBRkU0elBPVWtTVFVqVFNzdkNXZmlTS01GLi4uLi4uLkcuaVVQSWlNMVgyTDFYaUEuLi4uLi52QWZXLi52Qk9iUU5Oc3pYLi4uLi4uLkYuTFZBbEwxWGlneVhpTUYuLi4uLi4uLi5kQS4uSzd2RTEzelJpQS4uLi4uLnZBdlhFWHhYaU1WTWlNMVguLi4uLi4uTi4zRS4uTEZHaU1sTHhIaUxEN2ZLLjNQSzBmQVVuVW1halVsYmYueEwuVFVDcUh5WC4uZkMuLi4uTkF2VEguLkNXVXhKMExGLi4zLi4uLi5ELkxGQS5qd1VocmhOaUEuLk4uLi4uLkYuaVEuLi5iMEpxN3hYLi5mQy4uLi4zLnZXRC4uLll3eUpBTUYuLjMuLi4uLlguSEVDLjdURTdyeFhQQS4uTi4uLi5mQy5pUS4uLi4uLi5IaUx4SFNFT25BRWkuUERMVHpYbjhWUWlnMWFmTFNNR0hCS2lRa0cuRGkuLkwuVERUQ0QuSHdCb1h4WDZ2QS54Li5JQy5EQmJJLi5WZlBJcUwxVXMuUE1RLnYuSWcuUUouLkhRcndKaW9EUC5uQi4uLi5KRS5sLi5IZ0RadndYR1FDLnRQdkhDSGdBUkkuLjdYUEVrTGxXMC5mWC4udkNYa3ZYQi52WGlNMVh4SGlMeGZ2QXAuLi4uRENDc0RqU0F3elNHQVJMc1BSRnc3d1hEQS4uLi4uLi5mQ0I5LnhSa1hnRXhMbEVPLi4uLi4uLm44dlhKLi5JalhBS2lvUkkuLi4uLi4uVkF2Qk4ubkJEZ2p4WGYuLi4uLlBBLi55LmlvLi5ZZmdFYUxsUC4uLi4uLi4uWEEuSWQudkhSWHdIaUEwSi4uLi4uLi4uQ0xsQi5MMVhpTWxMeEhpTER2dkkuWC4uWExBVHRqelBFQWhMMDNSTGl3Q0p3TDFXLi4uLi4uLi4zLmZTRzN4WDdMUkxpOEUuLi4uLi4uLkouYjBBdExGT2ZEeVhlQS4uLi4uLi5mQy5TYy5EWmN2LkdMbFcuLi4uLi4uLjYuLk5GRHlYd1hCR2k0RS4uLi4uLi52Ti4uay4rTTFGMHJ4WGFBLi4uLi4uLmZDLmlJLi5pb1NLWEhDTGJJaS5ITEIuLi5QTFhYRFNFZ1VSZi5CSGZQeVhVTWxLTXdrWC5iUk1ULnZPLjMuQS5MbFZWYkNUY1VFLnZMRkRCN0MuSkkuLmlvaEVGTVZYNy52SWJzVEIrLmZSQi52WFNZd1Bpd0VULkhSQi4udk8uamsuLkxGUW1MMVhpTVZYLi5QUC43Qy5SSS4uU2NoSDguMVhjQS4uLi4uLisudlhCLmZXQzhFT3hIaUx4RHdBeWJCLi5qQ0ZBSUVUZkhpTXYuQ0hmTGxLLnZ3WGNjRS4xLi4uLkRDLkdRLi5pNEIuYkxWV1dBZk0uLi4uNC5QU0Iudlh0Li5HaTAwVS5YQy4uLlBKRFBrLi4zUkhUTHhYYlFFLi4uLi4uSC5DaUUuLmlNMVhZTDFYaUEuSlRiLi52QVBXLi5mTGlNbEdpTTFYLi4uLi4uLmIuTEZBLkwxWGlNbEx4SGlMQVhmSWcuLi40ZlFQeEEySkJVbWQ1STBiTjhrUWNMRlhLQXZNLnJELjRIdlhELlBGWXZQT2lNMVguTEMuLi5QTi5Uay4uRHhXRjB3WGlNRi52LmZHLkRHLlpRLi54akFDRk1sVmdBdkwuLi4uNFB3WEJELkdlWVRHaUExUy4uQy5DQVAuRG5FQS5IUkZMRHhYaWtDLnkuLi4uakNCaUkuLkpUZkFGSGlMeEhpRXNUaEpsUEJGWFBrVFdBQkhmLkJIZi54VE1uU0Rpb2tWLi5SLi4uUEguRGtILkhFQ2Uud1hYZ0Uua0QuLi5EQi42My4uWU1GTmpMMVhpQS4uLkguLm8udlQuLlBEZVhRSGlNMVguLi4uRy5QSi5MbC4uM2pDS2p3WFJjMEtMLi4uLkRFLkFJQi5RLmhIZEwxWGlBLi4uLi4uUUF2WEIudlhpTWxQeUhpTHhiUENpTWZHLkhBRk1ralRJUXpTUkFSTGYzRUtvM3hYK1hDLmlIVEFOamkuT0FBLmVFUkxpTDFMMS5QSi5QLkM2SGdURi5mV1cuVE1pTWlNLmJETEdQZk5SYkRBLkhqRXBieFh5VEMubWJ4QUxUZkNpSVAuaVV3WGJMRi4uLnZLZG4uQkZJQVNCRHZYVUxGR2lBLi4ubmZHSmZmYVZMbC5BenpWM3Z5THhIaUxHei5QLi52WHlmQVFFWVVSTEFCVUFNelJLblFBYkwxVy4uLi4uLi4uNi52UkVMaEJZLmZKaTRFLi4uLi4uLi5OLlhEQWlrUEYubnhYZEEuLi4uLi4uZkMuT01mU0wuUURHTGxXLi4uLi4uLi42N21VLi5URC5mLkdpRWxVLi4uLi4udk4uLjAuMG53Qlpid1guLi4uLi4uLi5mQy5pQVBRUkEuLk5IQ012SENERkxCLi4udk4uSFVVTUlEU0VBQkhmRHlYUDMuRHhIeFguYkIuLi4uSC5QREguYnZDUVB4WFVvQy5tLi4uLi5CLmlBQS5GenZCWFhTVWlBdkkuLi4uMy52VkQuLkZPRHdJaVVFSC5iQi4uLi5OLkxGQS5mLkNPVEFNVU1GLm0uLi4uZkQuVncuLmdQZ0ZtTFZVMC52SS4uLi5IQXZYRi52WGlNMVh4SGlMeFQuQ0x2UEEuZkJDQ0V6VENFRFFFQWhMd0wxWGlNMVhpTUYuQ01GLi4uMi5pYy5EaU0xWGlNMVhpQXZQaU1GLi5MUFcuLnhYaU1GUWlNMVgucnhYaUEuQkNMMUFMTDFYaU0xWGlNRi5xTDFYLmZ3LmlRLkhpTTFYaU0xWGlBLkUuTEYuUEx2WEdmdlRpTTFYaU0xWC5QQS5pQS4uQ25FQ01NMVhpTWxMeEhpTGVqLi4uLi4ueWZ3UHJQREtFSUZLRkFCSFhma0trdnlYLi4uLi4uLi4zTHZYUmIuR1hBU0k3TEYuLi4uLi4uLk5DTGxDSS5CVnRUQk9pQS4uLi4uLi5meS5pb3ZDamprS2t2eVguLi4uLi4uLjNMdlhKLlBLWDRSSTdMRi4uLi4uLi4uTkNMRkFLTEZWdVh4WGlBLi4uLi4uLmZ5LmlRLi5pTTFYaUlpTHhIeUdITEYuLi52TUxQVWN0UTFUekVGY2k0a0hkSFFJaWNERi5YQi5Bd3ZEUGppRkhiZ0daM3hYUVVDLnhYRC5PSFZCclAuLmRYeExzTEZSYi52SjhQdy5aRFFOQi5QS1dQeEppc1RNLi4uLi4udkxGTGwuLkwxRjduUVJpQS4uLjdRQkNmUUNpSS4uaVVRSXBMMVhhQS4uLi4uLmprdlhCLnZYaU0xWHhIaUx4WHZDWGpTQllEQ0NzYjBTQklEU0VBUkxzakNITTR3WGlvQy5KLi4uRGZDQmlBLi5LM1FGYkwxWC4uZkIuLi5BM2YuV0ouZkZHUXdJaU1GLi4uLi4uUC5OSHpFQS5udlhUanhYaUEuLi4uLi4uZkNBY0FQLlJMRkVpTTFYLi4uLi4uLi4zZmZWRC4uR2lRd0hpTVZELi4uLi4uLk5ETEYuLkxsWEt3aUx4SGlMUEx2SFlBLi5IZmdRSXdEVUVJVUtTY0VUVG4uR1gzMFQuQWZKMS5QLjN2LlBGLnZHSGJBR2lja1AudlJBTkwuTkh2ay4ubkRMTFBSVGlRRC51ZlBDLmZDRWlJLi5YblJDSkxGV0JBUEtJdi4uMy5QT0QuZkd0Zi5DaU0xUC56QkJMRC5OLlBrLi52akREdkJVaVlELnJuUEMuLkdFaUkuLmRNelc3SGlMeEhpLk5mQ1EuN3lFWExVUEhFalRBQUJIZi54WGlRUU5pTWxCLi4uLi4uLk4ucmlIaWN2WGlrd1hpTUYuLi4uLi5mQy5zWFFNaUwxWGNMMVhpQS4uLi4uLjMudlhKbnhFaU1WRmlNMVguLi4uLi4uTi5MbENHc2dFaW9SVWlNRi4uLi4uLmZDLlJJQi5uTDFYakwxWGlBLi4uLi4uUEF2WFRYUFBpTTFYeEhpTHgzZkFpLi4uLkRDLkV3VFFDUWtUTzRESHdMRi4uLnZYaU1GLk8uLi5EYi4uTEkuLktveFFoTDFYaUF2Qy4uLkF5QXZYQi52WEg4UUQuWEQuLjcuLi5Qdk8uTEZELkwxWGpMeFhpQS4uTy4uLkRyQy5pSS4uaUEuLi5MMVhpQXZDLi4uQW1BUFUuLi5NcGJqSGlNMVguNy4uLlB2WC5MbC4uTDFYaU1sTHhIaUxXN3ZGbi5BLmZmZ1BBNHpSU3dCSFQ0QkhYTDFYWXp3RmVMRi4uLi4udkEuVi4udlhpTWxGRlVDTWlBLi4uLi5CLlhULi56dlhpY1FTTThELi4uLi4uZkMuTXcuLjVMMVhrTDFYaUEuLi4uLi4zLnZYQi52WGlNMUVNMHpTaUEuLi4uLk4uVERDWGp3WGlVeFhpTUYuLi4uLi5mQS5WUS5GaU0xWGlJaUx4SENCTmp2LkcuLkRMTEVhdWMyTERBQlRnUVZOZnpqR2lNbE4ubi4uLlAuTERMVi5ZcmZHWXZ3WGlBLi5KLi4uRGZDQWJnLi5aYkRFbUwxWC4uLi4uLi5BSFFQV3lULkJKUFFKaU1GLi4uLi4uLi5ORXprQy5Id1hUUHhYaUEuLi4uLi4uLlRBWlEuLmJMRkVpTDFYUS4uLi4uLi4zVHZYTC5mWGhzRE94SGlMeC53LmlMbEJILkNDTFl6U2ZMMFVFVURUZjd3OCIgYmFzZTY0OnByb2dyYW09IjE2MS5pTTFYaU0xWGlBLi4uLi4uLi4uLi4uLi5BLnZBaU0xWGlNMVhpQS4uLi4uLi4uLi4uLi4uQS52QWlNMVhpTTFYaUEuLi4uLi4uLi4uLi4uLkEudkFpTUZMaU0xWCsuLi4uLi4uLi4uLi5MRi4uLnZBaU1GVWlNMVguLi4uLi4uLi4uLi4uTEYuLi52QWlNbEtpTTFYWUEuLi4uLi4uLi4uLkxGLi4udkFpTTFYaUlpTHhIQ0EuRHZILi4uLkEudi5YTFdjaEFCSGYuQkhmLkIuKytHQVlGSyIvPjxtaWRpQ0MvPjwvZGV4ZWRTdGF0ZT4A</chunk>
         </lxvst>
         <Controllable name="Cutoff" id="7453" flags="" value="0.76399999856948853" parameter="0"/>
         <Controllable name="Resonance" id="7455" flags="" value="0" parameter="1"/>
@@ -5283,7 +5288,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state11"/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state12"/>
       </Processor>
       <Processor id="2592" name="Calf Haas Stereo Enhancer" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/HaasEnhancer" count="1" custom="0">
         <Automation>
@@ -5451,7 +5456,7 @@
       <Diskstream flags="Recordable" playlist="cymbals.1" name="cymbals" id="2413" speed="1" capture-alignment="Automatic" record-safe="0"/>
     </Route>
     <Route id="21098" name="bass_bus" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="14" flags="AudioBus,OrderSet" color="3638934527"/>
+      <PresentationInfo order="15" flags="AudioBus,OrderSet" color="3638934527"/>
       <Controllable name="solo" id="21106" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="21112" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="21114" flags="Toggle" value="0" solo-safe="0"/>
@@ -5590,7 +5595,7 @@
       <Slavable/>
     </Route>
     <Route id="47066" name="export_bus_bass" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="15" flags="AudioBus,OrderSet" color="3853298175"/>
+      <PresentationInfo order="16" flags="AudioBus,OrderSet" color="3853298175"/>
       <Controllable name="solo" id="47074" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="47080" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="47082" flags="Toggle" value="0" solo-safe="0"/>
@@ -5672,7 +5677,7 @@
       <Slavable/>
     </Route>
     <Route id="47108" name="export_bus_drums" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="16" flags="AudioBus,OrderSet" color="3855603455"/>
+      <PresentationInfo order="17" flags="AudioBus,OrderSet" color="3855603455"/>
       <Controllable name="solo" id="47116" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="47122" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="47124" flags="Toggle" value="0" solo-safe="0"/>
@@ -5754,7 +5759,7 @@
       <Slavable/>
     </Route>
     <Route id="47150" name="export_bus_cymbals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="17" flags="AudioBus,OrderSet" color="3851798271"/>
+      <PresentationInfo order="18" flags="AudioBus,OrderSet" color="3851798271"/>
       <Controllable name="solo" id="47158" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="47164" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="47166" flags="Toggle" value="0" solo-safe="0"/>
@@ -5836,7 +5841,7 @@
       <Slavable/>
     </Route>
     <Route id="47192" name="export_bus_melody0" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="18" flags="AudioBus,OrderSet" color="3286099455"/>
+      <PresentationInfo order="19" flags="AudioBus,OrderSet" color="3286099455"/>
       <Controllable name="solo" id="47200" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="47206" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="47208" flags="Toggle" value="0" solo-safe="0"/>
@@ -5918,7 +5923,7 @@
       <Slavable/>
     </Route>
     <Route id="47234" name="export_bus_melody1_L" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="19" flags="AudioBus,OrderSet" color="2313542399"/>
+      <PresentationInfo order="20" flags="AudioBus,OrderSet" color="2313542399"/>
       <Controllable name="solo" id="47242" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="47248" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="47250" flags="Toggle" value="0" solo-safe="0"/>
@@ -6000,7 +6005,7 @@
       <Slavable/>
     </Route>
     <Route id="47276" name="export_bus_melody1_R" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="20" flags="AudioBus,OrderSet" color="3849507071"/>
+      <PresentationInfo order="21" flags="AudioBus,OrderSet" color="3849507071"/>
       <Controllable name="solo" id="47284" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="47290" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="47292" flags="Toggle" value="0" solo-safe="0"/>
@@ -6082,7 +6087,7 @@
       <Slavable/>
     </Route>
     <Route id="47318" name="export_bus_growler" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="21" flags="AudioBus,OrderSet" color="3362973183"/>
+      <PresentationInfo order="22" flags="AudioBus,OrderSet" color="3362973183"/>
       <Controllable name="solo" id="47326" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="47332" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="47334" flags="Toggle" value="0" solo-safe="0"/>
@@ -6164,7 +6169,7 @@
       <Slavable/>
     </Route>
     <Route id="47360" name="export_bus_screech" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="22" flags="AudioBus,OrderSet" color="3855585791"/>
+      <PresentationInfo order="23" flags="AudioBus,OrderSet" color="3855585791"/>
       <Controllable name="solo" id="47368" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="47374" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="47376" flags="Toggle" value="0" solo-safe="0"/>
@@ -6246,7 +6251,7 @@
       <Slavable/>
     </Route>
     <Route id="47402" name="export_bus_pluck_L" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="23" flags="AudioBus,OrderSet" color="2624775679"/>
+      <PresentationInfo order="24" flags="AudioBus,OrderSet" color="2624775679"/>
       <Controllable name="solo" id="47410" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="47416" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="47418" flags="Toggle" value="0" solo-safe="0"/>
@@ -6328,7 +6333,7 @@
       <Slavable/>
     </Route>
     <Route id="47444" name="export_bus_pluck_R" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="24" flags="AudioBus,OrderSet" color="3849501183"/>
+      <PresentationInfo order="25" flags="AudioBus,OrderSet" color="3849501183"/>
       <Controllable name="solo" id="47452" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="47458" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="47460" flags="Toggle" value="0" solo-safe="0"/>
@@ -6410,7 +6415,7 @@
       <Slavable/>
     </Route>
     <Route id="47486" name="export_bus_arp" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="25" flags="AudioBus,OrderSet" color="3855997695"/>
+      <PresentationInfo order="26" flags="AudioBus,OrderSet" color="3855997695"/>
       <Controllable name="solo" id="47494" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="47500" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="47502" flags="Toggle" value="0" solo-safe="0"/>
@@ -6491,6 +6496,502 @@
       </Processor>
       <Slavable/>
     </Route>
+    <Route id="63099" name="melody2" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1">
+      <PresentationInfo order="7" flags="MidiTrack,OrderSet" color="1926948351"/>
+      <Controllable name="solo" id="63107" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="63113" flags="Toggle,RealTime" value="1" solo-isolated="1"/>
+      <Controllable name="solo-safe" id="63115" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="melody2" id="63127" direction="Input" default-type="midi" user-latency="0">
+        <Port type="midi" name="melody2/midi_in 1"/>
+      </IO>
+      <IO name="melody2" id="63128" direction="Output" default-type="midi" user-latency="0">
+        <Port type="audio" name="melody2/audio_out 1">
+          <Connection other="export_bus_melody2/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="melody2/audio_out 2">
+          <Connection other="export_bus_melody2/audio_in 2"/>
+        </Port>
+        <Port type="midi" name="melody2/midi_out 1"/>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="63109" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="63111" flags="Toggle" value="0" phase-invert=""/>
+      <Automation>
+        <AutomationList automation-id="solo" id="63106" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="63112" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="63114" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="63108" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="63134" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="63136" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="63110" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="63138" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="63118" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="63122" flags="" value="1"/>
+        <Controllable name="pan-elevation" id="63120" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="63124" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="63126" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="63117" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="63119" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="63121" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="63123" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="63125" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="63340" name="Dexed" active="1" user-latency="0" type="lxvst" unique-id="1147500644" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-0" id="63341" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-1" id="63343" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-2" id="63345" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-3" id="63347" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-4" id="63349" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="63351" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="63353" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-7" id="63355" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="63357" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="63359" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="63361" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="63363" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="63365" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="63367" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="63369" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="63371" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="63373" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="63375" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="63377" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-19" id="63379" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-20" id="63381" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-21" id="63383" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-22" id="63385" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-23" id="63387" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-24" id="63389" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-25" id="63391" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-26" id="63393" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-27" id="63395" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-28" id="63397" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-29" id="63399" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-30" id="63401" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-31" id="63403" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-32" id="63405" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-33" id="63407" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-34" id="63409" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-35" id="63411" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-36" id="63413" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-37" id="63415" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-38" id="63417" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-39" id="63419" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-40" id="63421" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-41" id="63423" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-42" id="63425" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-43" id="63427" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-44" id="63429" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-45" id="63431" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-46" id="63433" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-47" id="63435" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-48" id="63437" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-49" id="63439" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-50" id="63441" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-51" id="63443" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-52" id="63445" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-53" id="63447" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-54" id="63449" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-55" id="63451" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-56" id="63453" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-57" id="63455" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-58" id="63457" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-59" id="63459" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-60" id="63461" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-61" id="63463" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-62" id="63465" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-63" id="63467" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-64" id="63469" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-65" id="63471" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-66" id="63473" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-67" id="63475" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-68" id="63477" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-69" id="63479" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-70" id="63481" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-71" id="63483" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-72" id="63485" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-73" id="63487" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-74" id="63489" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-75" id="63491" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-76" id="63493" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-77" id="63495" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-78" id="63497" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-79" id="63499" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-80" id="63501" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-81" id="63503" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-82" id="63505" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-83" id="63507" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-84" id="63509" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-85" id="63511" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-86" id="63513" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-87" id="63515" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-88" id="63517" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-89" id="63519" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-90" id="63521" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-91" id="63523" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-92" id="63525" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-93" id="63527" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-94" id="63529" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-95" id="63531" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-96" id="63533" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-97" id="63535" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-98" id="63537" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-99" id="63539" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-100" id="63541" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-101" id="63543" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-102" id="63545" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-103" id="63547" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-104" id="63549" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-105" id="63551" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-106" id="63553" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-107" id="63555" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-108" id="63557" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-109" id="63559" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-110" id="63561" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-111" id="63563" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-112" id="63565" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-113" id="63567" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-114" id="63569" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-115" id="63571" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-116" id="63573" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-117" id="63575" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-118" id="63577" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-119" id="63579" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-120" id="63581" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-121" id="63583" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-122" id="63585" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-123" id="63587" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-124" id="63589" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-125" id="63591" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-126" id="63593" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-127" id="63595" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-128" id="63597" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-129" id="63599" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-130" id="63601" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-131" id="63603" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-132" id="63605" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-133" id="63607" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-134" id="63609" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-135" id="63611" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-136" id="63613" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-137" id="63615" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-138" id="63617" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-139" id="63619" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-140" id="63621" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-141" id="63623" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-142" id="63625" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-143" id="63627" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-144" id="63629" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-145" id="63631" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-146" id="63633" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-147" id="63635" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-148" id="63637" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-149" id="63639" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-150" id="63641" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-151" id="63643" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-152" id="63645" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-153" id="63647" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-154" id="63649" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-4294967294" id="63651" interpolation-style="Discrete" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+          <Channelmap type="midi" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+          <chunk>VkMyISkYAAA8ZGV4ZWRTdGF0ZSBjdXRvZmY9IjEuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIHJlc289IjAuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIGdhaW49IjEuMDAwMDAwMDAwMDAwMDAwMDAwMDAiIGN1cnJlbnRQcm9ncmFtPSI2IiBtb25vTW9kZT0iMCIgZW5naW5lVHlwZT0iMiIgbWFzdGVyVHVuZT0iMCIgb3BTd2l0Y2g9IjExMTExMSIgd2hlZWxNb2Q9IjAgMCAwIDAiIGZvb3RNb2Q9IjAgMCAwIDAiIGJyZWF0aE1vZD0iMCAwIDAgMCIgYWZ0ZXJ0b3VjaE1vZD0iMCAwIDAgMCIgYWN0aXZlRmlsZUNhcnRyaWRnZT0iL2hvbWUvcm0vbG9jYWwvRGlnaXRhbFN1YnVyYmFuL0RleGVkL0NhcnRyaWRnZXMvZHg3X3ltMjYxNl9zZWdhX3BhdGNoZXMvQS9BVC9BVFBfVG91cl9DaGFtcGlvbnNoaXBfVGVubmlzXy1fMDhfLV9Tb3VuZF9UZXN0X05vXzA4LnN5eCI+PGRleGVkQmxvYiBiYXNlNjQ6c3lzZXg9IjQxMDQudk9ELkkuQi5mZ2dNaU1GVC4uLi4uLi4uUEEuVUQuLlhNLndYaXNELi4uLi4uLi5ULnJqLi4uRkYuTDFYMFRDLi4uLi4uLkMuUkEuLmYwLkRpTWxPLi4uLi4uLi5QQXZSQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlJaUx4SENBRS4uLi4uLkFYRERVUDhFVXVBQ0x2LnlYYS52WGlBLi4uLi4uLi4uVC5yai4uTEZJLkwxWC4uLi4uLi4uLi5FLldBLi5pMHhEaU1GSy4uLi4uLi4uMy52UUgudlg3LnZYaTBVVy4uLi4uLi5ULmZFLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVh4SGlMeGIuQS4uLi4uUC5GQVFFVGVRMGF2LkNMdy5USGdIMFhjQS4uLi4uLi5mQy5lWS4uUE1nQmlNVlcuLi4uLi4uLlBBZlJGLi5QZ0RoVGkwRS4uLi4uLi4uTi5iRUEuLjBESkwxWGNBLi4uLi4uLi5FLk5RLi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTWxMeEhpTERELi4uLi4uRGZRUFRBMFdUOEZMdi5pTC5FUkhSTVZXLi4uLi4uLi4zLlBWRi4uVFNudlhpMEUuLi4uLi4uLlQuUGZBLi5USGdIMFhjQS4uLi4uLi5mQy5XUS4uUE1nQmlNVlcuLi4uLi4uLlBBdlNELnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaUlpTHhIQ0FBLi4uLi4uQVhERFVQOEVVdUFDTHZMQ1BkVHdYaU1GLi4uLi4uLi5ULi5rLi5MbEdqdnpYY0EuLi4uLi4uLkQuSFEuLko0QUlMTVZXLi4uLi4uLi5QQS5SRi52R2RQQlNpMEUuLi4uLi4uLkwuZmouLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWHhIaUx4VHdBLi4uLi5QLkZBUUVUZVEwYXYuQ0x6LkZGMUwxWFBBLi4uLi4uLi5FLlRJLi5mUVJFaU0xUi4uLi4uLi4uUEFQU0IuLlhYLnZYaVVTTS4uLi4uLi5MLkhFLi4uRklVTDFYOS4uLi4uLi4uLkUuTUEuLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNbEx4SGlMRFQuLi4uLi5EZlFQVEEwV1Q4Rkx2LlNNaWdnTWlNRlQuLi4uLi4uLlBBLlVCLnZYTS53WGlzRC4uLi4uLi4uVC5yai4uTEZGLkwxWDBUQy4uLi4uLi5DLlJBLi5pMC5EaU1sTy4uLi4uLi4uUEF2UkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpSWlMeEhDQUUuLi4uLi5BWEREVVA4RVV1QUNMdlh5WHBYaU1pQUUuLi4uLi4uLlQuM0RFLi5GRitYeVhLQS4uLi4uLi4uRS5NSS4uaXNBLjFMVk0wLi4uLi4uLm4uZlBQLi5YWDdpTWk0Qy4uLi4uLi4uTi52REEuTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYeEhpTHhQUC4uLi4uLlAuRkFRRVRlUTBhdi5DTDJMMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi5MbC4uTDFYaU1sTHhIaUwuZnZILi4uLndmUVJOa0RVZlgwU0lNVFFpTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy5pSS4uaU0xWGlJaUx4SEMuSExCLi4uUExYampTSVFFSFY4VFJDVXpYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLnZYQi52WGlNMVh4SGlMeC4uQmkuLi4uRENGSTRUUlRBaFVPa3pQRU0xWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLkxsLi5MMVhpTWxMeEhpTC5mdkguLi4ud2ZRUk5rRFVmWDBTSU1UUWlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLmlJLi5pTTFYaUlpTHhIQy5ITEIuLi5QTFhqalNJUUVIVjhUUkNVelhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMudlhCLnZYaU0xWHhIaUx4Li5CaS4uLi5EQ0ZJNFRSVEFoVU9relBFTTFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uTGwuLkwxWGlNbEx4SGlMLmZ2SC4uLi53ZlFSTmtEVWZYMFNJTVRRaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuaUkuLmlNMVhpSWlMeEhDLkhMQi4uLlBMWGpqU0lRRUhWOFRSQ1V6WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy52WEIudlhpTTFYeEhpTHguLkJpLi4uLkRDRkk0VFJUQWhVT2t6UEVNMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi5MbC4uTDFYaU1sTHhIaUwuZnZILi4uLndmUVJOa0RVZlgwU0lNVFFpTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy5pSS4uaU0xWGlJaUx4SEMuSExCLi4uUExYampTSVFFSFY4VFJDVXpYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLnZYQi52WGlNMVh4SGlMeC4uQmkuLi4uRENGSTRUUlRBaFVPa3pQRU0xWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLkxsLi5MMVhpTWxMeEhpTC5mdkguLi4ud2ZRUk5rRFVmWDBTSU1UUWlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLmlJLi5pTTFYaUlpTHhIQy5ITEIuLi5QTFhqalNJUUVIVjhUUkNVelhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMudlhCLnZYaU0xWHhIaUx4Li5CaS4uLi5EQ0ZJNFRSVEFoVU9relBFTTFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uTGwuLkwxWGlNbEx4SGlMLmZ2SC4uLi53ZlFSTmtEVWZYMFNJTVRRaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuaUkuLmlNMVhpSWlMeEhDLkhMQi4uLlBMWGpqU0lRRUhWOFRSQ1V6WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy52WEIudlhpTTFYeEhpTHguLkJpLi4uLkRDRkk0VFJUQWhVT2t6UEVNMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi5MbC4uTDFYaU1sTHhIaUwuZnZILi4uLndmUVJOa0RVZlgwU0lNVFFpTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy5pSS4uaU0xWGlJaUx4SEMuSExCLi4uUExYampTSVFFSFY4VFJDVXpYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLnZYQi52WGlNMVh4SGlMeC4uQmkuLi4uRENGSTRUUlRBaFVPa3pQRU0xWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLi5ILi5pTTFYaU0xWGlBdkkuLi4uMy4uLkIudlhpTTFYaU0xWC5iQi4uLi5OLkxsLi5MMVhpTWxMeEhpTC5mdkguLi4ud2ZRUk5rRFVmWDBTSU1UUWlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMuLi5CLnZYaU0xWGlNMVguYkIuLi4uTi4uZi4uTDFYaU0xWGlNRi5tLi4uLmZDLmlJLi5pTTFYaUlpTHhIQy5ITEIuLi5QTFhqalNJUUVIVjhUUkNVelhpTTFYaU0xWC5iQi4uLi5OLi5mLi5MMVhpTTFYaU1GLm0uLi4uZkMuLkguLmlNMVhpTTFYaUF2SS4uLi4zLi4uQi52WGlNMVhpTTFYLmJCLi4uLk4uLmYuLkwxWGlNMVhpTUYubS4uLi5mQy4uSC4uaU0xWGlNMVhpQXZJLi4uLjMudlhCLnZYaU0xWHhIaUx4Li5CaS4uLi5EQ0ZJNFRSVEFoVU9relBFSXg4IiBiYXNlNjQ6cHJvZ3JhbT0iMTYxLmlnZ01pTUZULi4uLi4uLi4uLi4uLlBFLkEuZkJpMC5EaU0xUi4uLi4uLi4uLi4uLi5yRC5BLmZCaWdBLmlNVk0wLi4uLi4uLi4uLi4uSEUuLi5mQWkwLkRpTWxPLi4uLi4uLi4uLi4uLkxGLkEuZkJpTTFYaU0xWGlBdkkuLi4uLi4uLi4uLi5BLnZBaU0xWGlNMVhpQXZJLi4uLi4uLi4uLi4uQS52QWlNMVhpSWlMeEhDQUUuLi4uLi4uLkguLlhERFVQOEVVdUFDTHZYQy4uLi4uLi5KIi8+PG1pZGlDQy8+PC9kZXhlZFN0YXRlPgA=</chunk>
+        </lxvst>
+        <Controllable name="Cutoff" id="63342" flags="" value="0" parameter="0"/>
+        <Controllable name="Resonance" id="63344" flags="" value="0" parameter="1"/>
+        <Controllable name="Output" id="63346" flags="" value="0" parameter="2"/>
+        <Controllable name="MASTER TUNE ADJ" id="63348" flags="" value="0" parameter="3"/>
+        <Controllable name="ALGORITHM" id="63350" flags="" value="0" parameter="4"/>
+        <Controllable name="FEEDBACK" id="63352" flags="" value="0" parameter="5"/>
+        <Controllable name="OSC KEY SYNC" id="63354" flags="" value="1" parameter="6"/>
+        <Controllable name="LFO SPEED" id="63356" flags="" value="0" parameter="7"/>
+        <Controllable name="LFO DELAY" id="63358" flags="" value="0" parameter="8"/>
+        <Controllable name="LFO PM DEPTH" id="63360" flags="" value="0" parameter="9"/>
+        <Controllable name="LFO AM DEPTH" id="63362" flags="" value="0" parameter="10"/>
+        <Controllable name="LFO KEY SYNC" id="63364" flags="" value="0" parameter="11"/>
+        <Controllable name="LFO WAVE" id="63366" flags="" value="0" parameter="12"/>
+        <Controllable name="MIDDLE C" id="63368" flags="" value="0.5" parameter="13"/>
+        <Controllable name="P MODE SENS." id="63370" flags="" value="0" parameter="14"/>
+        <Controllable name="PITCH EG RATE 1" id="63372" flags="" value="0" parameter="15"/>
+        <Controllable name="PITCH EG RATE 2" id="63374" flags="" value="0" parameter="16"/>
+        <Controllable name="PITCH EG RATE 3" id="63376" flags="" value="0" parameter="17"/>
+        <Controllable name="PITCH EG RATE 4" id="63378" flags="" value="0" parameter="18"/>
+        <Controllable name="PITCH EG LEVEL 1" id="63380" flags="" value="0" parameter="19"/>
+        <Controllable name="PITCH EG LEVEL 2" id="63382" flags="" value="0" parameter="20"/>
+        <Controllable name="PITCH EG LEVEL 3" id="63384" flags="" value="0" parameter="21"/>
+        <Controllable name="PITCH EG LEVEL 4" id="63386" flags="" value="0" parameter="22"/>
+        <Controllable name="OP1 EG RATE 1" id="63388" flags="" value="0" parameter="23"/>
+        <Controllable name="OP1 EG RATE 2" id="63390" flags="" value="0" parameter="24"/>
+        <Controllable name="OP1 EG RATE 3" id="63392" flags="" value="0" parameter="25"/>
+        <Controllable name="OP1 EG RATE 4" id="63394" flags="" value="0" parameter="26"/>
+        <Controllable name="OP1 EG LEVEL 1" id="63396" flags="" value="0" parameter="27"/>
+        <Controllable name="OP1 EG LEVEL 2" id="63398" flags="" value="0" parameter="28"/>
+        <Controllable name="OP1 EG LEVEL 3" id="63400" flags="" value="0" parameter="29"/>
+        <Controllable name="OP1 EG LEVEL 4" id="63402" flags="" value="0" parameter="30"/>
+        <Controllable name="OP1 OUTPUT LEVEL" id="63404" flags="" value="0" parameter="31"/>
+        <Controllable name="OP1 MODE" id="63406" flags="" value="0" parameter="32"/>
+        <Controllable name="OP1 F COARSE" id="63408" flags="" value="0" parameter="33"/>
+        <Controllable name="OP1 F FINE" id="63410" flags="" value="0" parameter="34"/>
+        <Controllable name="OP1 OSC DETUNE" id="63412" flags="" value="0" parameter="35"/>
+        <Controllable name="OP1 BREAK POINT" id="63414" flags="" value="0" parameter="36"/>
+        <Controllable name="OP1 L SCALE DEPTH" id="63416" flags="" value="0" parameter="37"/>
+        <Controllable name="OP1 R SCALE DEPTH" id="63418" flags="" value="0" parameter="38"/>
+        <Controllable name="OP1 L KEY SCALE" id="63420" flags="" value="0" parameter="39"/>
+        <Controllable name="OP1 R KEY SCALE" id="63422" flags="" value="0" parameter="40"/>
+        <Controllable name="OP1 RATE SCALING" id="63424" flags="" value="0" parameter="41"/>
+        <Controllable name="OP1 A MOD SENS." id="63426" flags="" value="0" parameter="42"/>
+        <Controllable name="OP1 KEY VELOCITY" id="63428" flags="" value="0" parameter="43"/>
+        <Controllable name="OP1 SWITCH" id="63430" flags="" value="0" parameter="44"/>
+        <Controllable name="OP2 EG RATE 1" id="63432" flags="" value="0" parameter="45"/>
+        <Controllable name="OP2 EG RATE 2" id="63434" flags="" value="0" parameter="46"/>
+        <Controllable name="OP2 EG RATE 3" id="63436" flags="" value="0" parameter="47"/>
+        <Controllable name="OP2 EG RATE 4" id="63438" flags="" value="0" parameter="48"/>
+        <Controllable name="OP2 EG LEVEL 1" id="63440" flags="" value="0" parameter="49"/>
+        <Controllable name="OP2 EG LEVEL 2" id="63442" flags="" value="0" parameter="50"/>
+        <Controllable name="OP2 EG LEVEL 3" id="63444" flags="" value="0" parameter="51"/>
+        <Controllable name="OP2 EG LEVEL 4" id="63446" flags="" value="0" parameter="52"/>
+        <Controllable name="OP2 OUTPUT LEVEL" id="63448" flags="" value="0" parameter="53"/>
+        <Controllable name="OP2 MODE" id="63450" flags="" value="0" parameter="54"/>
+        <Controllable name="OP2 F COARSE" id="63452" flags="" value="0" parameter="55"/>
+        <Controllable name="OP2 F FINE" id="63454" flags="" value="0" parameter="56"/>
+        <Controllable name="OP2 OSC DETUNE" id="63456" flags="" value="0" parameter="57"/>
+        <Controllable name="OP2 BREAK POINT" id="63458" flags="" value="0" parameter="58"/>
+        <Controllable name="OP2 L SCALE DEPTH" id="63460" flags="" value="0" parameter="59"/>
+        <Controllable name="OP2 R SCALE DEPTH" id="63462" flags="" value="0" parameter="60"/>
+        <Controllable name="OP2 L KEY SCALE" id="63464" flags="" value="0" parameter="61"/>
+        <Controllable name="OP2 R KEY SCALE" id="63466" flags="" value="0" parameter="62"/>
+        <Controllable name="OP2 RATE SCALING" id="63468" flags="" value="0" parameter="63"/>
+        <Controllable name="OP2 A MOD SENS." id="63470" flags="" value="0" parameter="64"/>
+        <Controllable name="OP2 KEY VELOCITY" id="63472" flags="" value="0" parameter="65"/>
+        <Controllable name="OP2 SWITCH" id="63474" flags="" value="0" parameter="66"/>
+        <Controllable name="OP3 EG RATE 1" id="63476" flags="" value="0" parameter="67"/>
+        <Controllable name="OP3 EG RATE 2" id="63478" flags="" value="0" parameter="68"/>
+        <Controllable name="OP3 EG RATE 3" id="63480" flags="" value="0" parameter="69"/>
+        <Controllable name="OP3 EG RATE 4" id="63482" flags="" value="0" parameter="70"/>
+        <Controllable name="OP3 EG LEVEL 1" id="63484" flags="" value="0" parameter="71"/>
+        <Controllable name="OP3 EG LEVEL 2" id="63486" flags="" value="0" parameter="72"/>
+        <Controllable name="OP3 EG LEVEL 3" id="63488" flags="" value="0" parameter="73"/>
+        <Controllable name="OP3 EG LEVEL 4" id="63490" flags="" value="0" parameter="74"/>
+        <Controllable name="OP3 OUTPUT LEVEL" id="63492" flags="" value="1" parameter="75"/>
+        <Controllable name="OP3 MODE" id="63494" flags="" value="0" parameter="76"/>
+        <Controllable name="OP3 F COARSE" id="63496" flags="" value="0" parameter="77"/>
+        <Controllable name="OP3 F FINE" id="63498" flags="" value="0" parameter="78"/>
+        <Controllable name="OP3 OSC DETUNE" id="63500" flags="" value="0" parameter="79"/>
+        <Controllable name="OP3 BREAK POINT" id="63502" flags="" value="0" parameter="80"/>
+        <Controllable name="OP3 L SCALE DEPTH" id="63504" flags="" value="0" parameter="81"/>
+        <Controllable name="OP3 R SCALE DEPTH" id="63506" flags="" value="0" parameter="82"/>
+        <Controllable name="OP3 L KEY SCALE" id="63508" flags="" value="0" parameter="83"/>
+        <Controllable name="OP3 R KEY SCALE" id="63510" flags="" value="0" parameter="84"/>
+        <Controllable name="OP3 RATE SCALING" id="63512" flags="" value="0" parameter="85"/>
+        <Controllable name="OP3 A MOD SENS." id="63514" flags="" value="0" parameter="86"/>
+        <Controllable name="OP3 KEY VELOCITY" id="63516" flags="" value="0" parameter="87"/>
+        <Controllable name="OP3 SWITCH" id="63518" flags="" value="0" parameter="88"/>
+        <Controllable name="OP4 EG RATE 1" id="63520" flags="" value="0" parameter="89"/>
+        <Controllable name="OP4 EG RATE 2" id="63522" flags="" value="0" parameter="90"/>
+        <Controllable name="OP4 EG RATE 3" id="63524" flags="" value="0" parameter="91"/>
+        <Controllable name="OP4 EG RATE 4" id="63526" flags="" value="0" parameter="92"/>
+        <Controllable name="OP4 EG LEVEL 1" id="63528" flags="" value="0" parameter="93"/>
+        <Controllable name="OP4 EG LEVEL 2" id="63530" flags="" value="0" parameter="94"/>
+        <Controllable name="OP4 EG LEVEL 3" id="63532" flags="" value="0" parameter="95"/>
+        <Controllable name="OP4 EG LEVEL 4" id="63534" flags="" value="0" parameter="96"/>
+        <Controllable name="OP4 OUTPUT LEVEL" id="63536" flags="" value="0" parameter="97"/>
+        <Controllable name="OP4 MODE" id="63538" flags="" value="0" parameter="98"/>
+        <Controllable name="OP4 F COARSE" id="63540" flags="" value="0" parameter="99"/>
+        <Controllable name="OP4 F FINE" id="63542" flags="" value="0" parameter="100"/>
+        <Controllable name="OP4 OSC DETUNE" id="63544" flags="" value="0" parameter="101"/>
+        <Controllable name="OP4 BREAK POINT" id="63546" flags="" value="0" parameter="102"/>
+        <Controllable name="OP4 L SCALE DEPTH" id="63548" flags="" value="0" parameter="103"/>
+        <Controllable name="OP4 R SCALE DEPTH" id="63550" flags="" value="0" parameter="104"/>
+        <Controllable name="OP4 L KEY SCALE" id="63552" flags="" value="0" parameter="105"/>
+        <Controllable name="OP4 R KEY SCALE" id="63554" flags="" value="0" parameter="106"/>
+        <Controllable name="OP4 RATE SCALING" id="63556" flags="" value="0" parameter="107"/>
+        <Controllable name="OP4 A MOD SENS." id="63558" flags="" value="0" parameter="108"/>
+        <Controllable name="OP4 KEY VELOCITY" id="63560" flags="" value="0" parameter="109"/>
+        <Controllable name="OP4 SWITCH" id="63562" flags="" value="0" parameter="110"/>
+        <Controllable name="OP5 EG RATE 1" id="63564" flags="" value="0" parameter="111"/>
+        <Controllable name="OP5 EG RATE 2" id="63566" flags="" value="0" parameter="112"/>
+        <Controllable name="OP5 EG RATE 3" id="63568" flags="" value="0" parameter="113"/>
+        <Controllable name="OP5 EG RATE 4" id="63570" flags="" value="0" parameter="114"/>
+        <Controllable name="OP5 EG LEVEL 1" id="63572" flags="" value="0" parameter="115"/>
+        <Controllable name="OP5 EG LEVEL 2" id="63574" flags="" value="0" parameter="116"/>
+        <Controllable name="OP5 EG LEVEL 3" id="63576" flags="" value="0" parameter="117"/>
+        <Controllable name="OP5 EG LEVEL 4" id="63578" flags="" value="0" parameter="118"/>
+        <Controllable name="OP5 OUTPUT LEVEL" id="63580" flags="" value="0" parameter="119"/>
+        <Controllable name="OP5 MODE" id="63582" flags="" value="0" parameter="120"/>
+        <Controllable name="OP5 F COARSE" id="63584" flags="" value="0" parameter="121"/>
+        <Controllable name="OP5 F FINE" id="63586" flags="" value="0" parameter="122"/>
+        <Controllable name="OP5 OSC DETUNE" id="63588" flags="" value="0" parameter="123"/>
+        <Controllable name="OP5 BREAK POINT" id="63590" flags="" value="0" parameter="124"/>
+        <Controllable name="OP5 L SCALE DEPTH" id="63592" flags="" value="0" parameter="125"/>
+        <Controllable name="OP5 R SCALE DEPTH" id="63594" flags="" value="0" parameter="126"/>
+        <Controllable name="OP5 L KEY SCALE" id="63596" flags="" value="0" parameter="127"/>
+        <Controllable name="OP5 R KEY SCALE" id="63598" flags="" value="0" parameter="128"/>
+        <Controllable name="OP5 RATE SCALING" id="63600" flags="" value="0" parameter="129"/>
+        <Controllable name="OP5 A MOD SENS." id="63602" flags="" value="0" parameter="130"/>
+        <Controllable name="OP5 KEY VELOCITY" id="63604" flags="" value="0" parameter="131"/>
+        <Controllable name="OP5 SWITCH" id="63606" flags="" value="0" parameter="132"/>
+        <Controllable name="OP6 EG RATE 1" id="63608" flags="" value="0" parameter="133"/>
+        <Controllable name="OP6 EG RATE 2" id="63610" flags="" value="0" parameter="134"/>
+        <Controllable name="OP6 EG RATE 3" id="63612" flags="" value="0" parameter="135"/>
+        <Controllable name="OP6 EG RATE 4" id="63614" flags="" value="0" parameter="136"/>
+        <Controllable name="OP6 EG LEVEL 1" id="63616" flags="" value="0" parameter="137"/>
+        <Controllable name="OP6 EG LEVEL 2" id="63618" flags="" value="0" parameter="138"/>
+        <Controllable name="OP6 EG LEVEL 3" id="63620" flags="" value="0" parameter="139"/>
+        <Controllable name="OP6 EG LEVEL 4" id="63622" flags="" value="0" parameter="140"/>
+        <Controllable name="OP6 OUTPUT LEVEL" id="63624" flags="" value="0" parameter="141"/>
+        <Controllable name="OP6 MODE" id="63626" flags="" value="0" parameter="142"/>
+        <Controllable name="OP6 F COARSE" id="63628" flags="" value="0" parameter="143"/>
+        <Controllable name="OP6 F FINE" id="63630" flags="" value="0" parameter="144"/>
+        <Controllable name="OP6 OSC DETUNE" id="63632" flags="" value="0" parameter="145"/>
+        <Controllable name="OP6 BREAK POINT" id="63634" flags="" value="0" parameter="146"/>
+        <Controllable name="OP6 L SCALE DEPTH" id="63636" flags="" value="0" parameter="147"/>
+        <Controllable name="OP6 R SCALE DEPTH" id="63638" flags="" value="0" parameter="148"/>
+        <Controllable name="OP6 L KEY SCALE" id="63640" flags="" value="0" parameter="149"/>
+        <Controllable name="OP6 R KEY SCALE" id="63642" flags="" value="0" parameter="150"/>
+        <Controllable name="OP6 RATE SCALING" id="63644" flags="" value="0" parameter="151"/>
+        <Controllable name="OP6 A MOD SENS." id="63646" flags="" value="0" parameter="152"/>
+        <Controllable name="OP6 KEY VELOCITY" id="63648" flags="" value="0" parameter="153"/>
+        <Controllable name="OP6 SWITCH" id="63650" flags="" value="0" parameter="154"/>
+        <Controllable name="Plugin Enable" id="63652" flags="Toggle" value="1" parameter="4294967294"/>
+      </Processor>
+      <Processor id="63129" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="63102" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="63103" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="63131" name="meter-melody2" active="1" user-latency="0" type="meter"/>
+      <Processor id="63132" name="melody2" active="1" user-latency="0" own-input="1" own-output="0" output="melody2" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="63118" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="63122" flags="" value="1"/>
+          <Controllable name="pan-elevation" id="63120" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="63124" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="63126" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="63117" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="63119" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="63121" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="63123" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="63125" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="63139" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="63137" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="63135" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="melody2.1" name="melody2" id="63140" speed="1" capture-alignment="Automatic" record-safe="0"/>
+      <Controllable name="midi-pitch-bender-0" id="64066" flags="" value="3"/>
+    </Route>
+    <Route id="64596" name="export_bus_melody2" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
+      <PresentationInfo order="27" flags="AudioBus,OrderSet" color="3387283455"/>
+      <Controllable name="solo" id="64604" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="64610" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="64612" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="export_bus_melody2" id="64624" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="export_bus_melody2/audio_in 1">
+          <Connection other="melody2/audio_out 1"/>
+        </Port>
+        <Port type="audio" name="export_bus_melody2/audio_in 2">
+          <Connection other="melody2/audio_out 2"/>
+        </Port>
+      </IO>
+      <IO name="export_bus_melody2" id="64625" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="export_bus_melody2/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="export_bus_melody2/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="64606" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="64608" flags="Toggle" value="0" phase-invert="00"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="64603" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="64609" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="64611" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="64605" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="64607" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="64615" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="64619" flags="" value="1"/>
+        <Controllable name="pan-elevation" id="64617" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="64621" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="64623" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="64614" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="64616" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="64618" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="64620" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="64622" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="64632" name="return 16" active="1" user-latency="0" own-input="1" own-output="1" type="intreturn" bitslot="15">
+        <Automation>
+          <AutomationList automation-id="gain" id="64633" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Processor>
+      <Processor id="64627" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="64601" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="64602" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="64626" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="64599" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="64600" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="64628" name="meter-export_bus_melody2" active="1" user-latency="0" type="meter"/>
+      <Processor id="64629" name="export_bus_melody2" active="1" user-latency="0" own-input="1" own-output="0" output="export_bus_melody2" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="64615" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="64619" flags="" value="1"/>
+          <Controllable name="pan-elevation" id="64617" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="64621" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="64623" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="64614" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="64616" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="64618" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="64620" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="64622" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+    </Route>
   </Routes>
   <Playlists>
     <Playlist id="284" name="sketch-t1-1-1" type="midi" orig-track-id="242" shared-with-ids="" frozen="0" combine-ops="0">
@@ -6546,6 +7047,9 @@
       <Region name="cymbals-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1792000" position="2688000" beat="84" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="56" id="6617" type="midi" first-edit="nothing" source-0="2508" master-source-0="2508"/>
       <Region name="cymbals-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3584000" length="1024000" position="4480000" beat="140" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="112" length-beats="32" id="7081" type="midi" first-edit="nothing" source-0="7079" master-source-0="7079"/>
       <Region name="cymbals-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4608000" length="3584000" position="5504000" beat="172" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="144" length-beats="112" id="19317" type="midi" first-edit="nothing" source-0="19315" master-source-0="19315"/>
+    </Playlist>
+    <Playlist id="63141" name="melody2.1" type="midi" orig-track-id="63099" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="melody2-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1792000" position="7296000" beat="228" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="56" id="64316" type="midi" first-edit="nothing" source-0="63659" master-source-0="63659"/>
     </Playlist>
   </Playlists>
   <UnusedPlaylists>
@@ -6676,6 +7180,22 @@
         <Channel number="1"/>
         <Channel number="2"/>
       </ExportChannelConfiguration>
+      <ExportChannelConfiguration split="0" channels="2">
+        <Channel number="1"/>
+        <Channel number="2"/>
+      </ExportChannelConfiguration>
+      <ExportChannelConfiguration split="0" channels="2">
+        <Channel number="1"/>
+        <Channel number="2"/>
+      </ExportChannelConfiguration>
+      <ExportChannelConfiguration split="0" channels="2">
+        <Channel number="1"/>
+        <Channel number="2"/>
+      </ExportChannelConfiguration>
+      <ExportChannelConfiguration split="0" channels="2">
+        <Channel number="1"/>
+        <Channel number="2"/>
+      </ExportChannelConfiguration>
       <ExportFormat id="614f2241-f8eb-4ab8-8eb4-7ddae0feb164"/>
       <ExportFilename>
         <Folder relative="1" path="/export"/>
@@ -6695,15 +7215,15 @@
       <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="890" y-size="508"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="0" x-off="1920" y-off="0" x-size="620" y-size="370"/>
       <Window name="audio-midi-setup" visible="0" x-off="1920" y-off="0" x-size="792" y-size="423"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="0" y-off="372" x-size="431" y-size="388"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="locations" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="big-clock" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="midi-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="0" x-off="1920" y-off="200" x-size="734" y-size="695"/>
+      <Window name="midi-connection-manager" visible="0" x-off="1920" y-off="254" x-size="600" y-size="587"/>
       <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-54" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-242" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -6769,7 +7289,7 @@
       <Window name="PM-2402-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2404-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2405-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-325-7794" visible="0" x-off="1499" y-off="175" x-size="886" y-size="727" custom-ui="1"/>
+      <Window name="P-325-7794" visible="0" x-off="1499" y-off="175" x-size="886" y-size="729" custom-ui="1"/>
       <Window name="P-325-21217" visible="0" x-off="3360" y-off="0" x-size="507" y-size="371" custom-ui="1"/>
       <Window name="P-325-20961" visible="0" x-off="3360" y-off="0" x-size="847" y-size="403" custom-ui="1"/>
       <Window name="P-325-355" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -6993,6 +7513,26 @@
       <Window name="PM-47516-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-47518-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-47519-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-63099" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-63099-63129" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-63099-63131" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-63099-63132" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-63129-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-63131-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-63132-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-63099-63340" visible="0" x-off="1920" y-off="0" x-size="886" y-size="729" custom-ui="1"/>
+      <Window name="PM-63340-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-64596" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-64596-64632" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-64596-64627" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-64596-64626" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-64596-64628" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-64596-64629" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-64632-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-64627-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-64626-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-64628-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-64629-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
@@ -7083,7 +7623,7 @@
           <Object id="processor 22316"/>
           <Object id="processor 22345"/>
         </Object>
-        <Object id="rtav 1137" height="42" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="27" note-range-max="47"/>
+        <Object id="rtav 1137" height="37" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="27" note-range-max="47"/>
         <Object id="automation 1141" height="66" visible="0"/>
         <Object id="automation 1137 12/0/0" height="66" visible="0"/>
         <Object id="strip 1137" visible="1" strip-width="Wide">
@@ -7285,6 +7825,25 @@
         <Object id="strip 47528" visible="1">
           <Object id="processor 47558"/>
         </Object>
+        <Object id="strip 63099" visible="1" strip-width="Wide">
+          <Object id="processor 63129"/>
+          <Object id="processor 63340"/>
+        </Object>
+        <Object id="rtav 63099" height="47" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="59" note-range-max="81"/>
+        <Object id="automation 63103" height="78" visible="0"/>
+        <Object id="automation 63099 12/0/0" height="78" visible="0"/>
+        <Object id="automation 63118" height="78" visible="0"/>
+        <Object id="automation 63122" height="78" visible="0"/>
+        <Object id="automation 63099 15/0/0" height="37" visible="1"/>
+        <Object id="strip 64596" visible="1" strip-width="Wide">
+          <Object id="processor 64626"/>
+        </Object>
+        <Object id="rtav 64596" height="78" visible="1"/>
+        <Object id="automation 64600" height="78" visible="0"/>
+        <Object id="automation 64602" height="78" visible="0"/>
+        <Object id="automation 64596 12/0/0" height="78" visible="0"/>
+        <Object id="automation 64615" height="78" visible="0"/>
+        <Object id="automation 64619" height="78" visible="0"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
