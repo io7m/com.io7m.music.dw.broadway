@@ -1,0 +1,30 @@
+<group> key=60 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_low_sfz\noise_low_sfz01.flac
+
+<group> key=61 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_low_sfz\noise_low_sfz02.flac
+
+<group> key=62 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_low_sfz\noise_low_sfz03.flac
+
+<group> key=63 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_low_sfz\noise_low_sfz04.flac
+
+<group> key=64 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_low_sfz\noise_low_sfz05.flac
+
+<group> key=65 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_low_sfz\noise_low_sfz06.flac
+
+<group> key=66 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_low_sfz\noise_low_sfz07.flac
+
+<group> key=67 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_low_sfz\noise_low_sfz08.flac
+
+<group> key=68 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_low_sfz\noise_low_sfz09.flac
+
+<group> key=69 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_low_sfz\noise_low_sfz10.flac
+

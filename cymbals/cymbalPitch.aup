@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="cymbalPitch_data" version="1.3.0" audacityversion="2.3.3" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="344.5312500000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<timetrack name="Time Track" isSelected="1" height="273" minimized="0" rangelower="0.100000000000" rangeupper="1.000000000000" displaylog="0" interpolatelog="1">
+		<envelope numpoints="3">
+			<controlpoint t="0.000000000000" val="1.000000000000"/>
+			<controlpoint t="1.271292517007" val="0.120377361774"/>
+			<controlpoint t="1.999818594104" val="1.000000000000"/>
+		</envelope>
+	</timetrack>
+	<wavetrack name="session" isSelected="0" height="281" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="150396">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f11a.au" len="150396" min="-0.530487" max="0.616608" rms="0.074294"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="session" isSelected="0" height="281" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="150396">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f1a5.au" len="150396" min="-0.429108" max="0.599304" rms="0.075994"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

@@ -1,0 +1,44 @@
+<group>
+ampeg_release=0
+ampeg_attack=0
+amp_veltrack=100
+
+<group> key=60 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw01.flac
+
+<group> key=61 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw02.flac
+
+<group> key=62 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw03.flac
+
+<group> key=63 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw04.flac
+
+<group> key=64 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw05.flac
+
+<group> key=65 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw06.flac
+
+<group> key=66 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw07.flac
+
+<group> key=67 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw08.flac
+
+<group> key=68 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw09.flac
+
+<group> key=69 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw10.flac
+
+<group> key=70 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw11.flac
+
+<group> key=71 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw12.flac
+
+<group> key=72 ampeg_attack=0 ampeg_release=0
+<region> sample=noise_raw\noise_raw13.flac
+
