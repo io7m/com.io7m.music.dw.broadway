@@ -2,7 +2,7 @@
 <instant>
   <LastUsedSnapshot name="broadway_3"/>
   <Main x="1933" y="12" w="1883" h="989" current-tab="editor"/>
-  <Editor id="41" edit-horizontal-pane-pos="0.75942647457122803" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusRight" zoom="16619" grid-type="GridTypeBar" snap-mode="SnapMagnetic" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapOff" pre-internal-grid-type="GridTypeBar" pre-internal-snap-mode="SnapMagnetic" edit-point="EditAtMouse" visible-track-count="-1" playhead="17299456" left-frame="0" y-origin="0" maximised="0" follow-playhead="0" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="0" show-editor-list="1" editor-list-page="1" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="240000">
+  <Editor id="41" edit-horizontal-pane-pos="0.75942647457122803" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusRight" zoom="16619" grid-type="GridTypeBar" snap-mode="SnapMagnetic" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapOff" pre-internal-grid-type="GridTypeBar" pre-internal-snap-mode="SnapMagnetic" edit-point="EditAtMouse" visible-track-count="-1" playhead="0" left-frame="0" y-origin="0" maximised="0" follow-playhead="0" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="0" show-editor-list="1" editor-list-page="1" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="240000">
     <Window name="Editor" visible="0" x-off="3360" y-off="36" x-size="956" y-size="1040" tabbed="1"/>
     <Buttons>
       <Press/>
