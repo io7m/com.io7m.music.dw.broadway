@@ -9,6 +9,39 @@ Image by [aguettl](https://pixabay.com/users/aguettl-103035/?utm_source=link-att
 
 [turnwise_broadway-1.0.0.flac](turnwise_broadway-1.0.0.flac)
 
+## Source Files
+
+|File|Format|Purpose|
+|----|------|-------|
+|[0/sketch.rg](0/sketch.rg)|Rosegarden|The Rosegarden sketch used to write the initial musical parts|
+|[0/sketch.mid](0/sketch.mid)|MIDI|The exported MIDI from the Rosegarden sketch|
+|[0/sketch.carxp](0/sketch.carxp)|Carla|The Carla rack used for MIDI|
+|[1/broadway_1](1/broadway_1)|Ardour|The initial transformation of the Rosegarden parts into Ardour|
+|[2/broadway_2](2/broadway_2)|Ardour|The final Ardour arrangement|
+|[3/broadway_3](3/broadway_3)|Ardour|The Ardour mix/master|
+
+The individual compiled audio tracks that were arranged into the final mix
+are in [2/broadway_2/export](2/broadway_2/export).
+
+|File|Format|
+|----|------|
+|[2/broadway_2/export/session_exportBus_africa.flac](2/broadway_2/export/session_exportBus_africa.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_arp.flac](2/broadway_2/export/session_exportBus_arp.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_bass.flac](2/broadway_2/export/session_exportBus_bass.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_crashes.flac](2/broadway_2/export/session_exportBus_crashes.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_dirt1.flac](2/broadway_2/export/session_exportBus_dirt1.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_dirt2.flac](2/broadway_2/export/session_exportBus_dirt2.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_dirt3.flac](2/broadway_2/export/session_exportBus_dirt3.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_dirt4.flac](2/broadway_2/export/session_exportBus_dirt4.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_drums.flac](2/broadway_2/export/session_exportBus_drums.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_growler.flac](2/broadway_2/export/session_exportBus_growler.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_melody0.flac](2/broadway_2/export/session_exportBus_melody0.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_melody1.flac](2/broadway_2/export/session_exportBus_melody1.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_melody2.flac](2/broadway_2/export/session_exportBus_melody2.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_perc.flac](2/broadway_2/export/session_exportBus_perc.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_pluck.flac](2/broadway_2/export/session_exportBus_pluck.flac)|FLAC|
+|[2/broadway_2/export/session_exportBus_screech.flac](2/broadway_2/export/session_exportBus_screech.flac)|FLAC|
+
 ## Transcription
 
 ### Harmonic Analysis
